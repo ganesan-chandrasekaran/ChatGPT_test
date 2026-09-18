@@ -1,0 +1,92 @@
+C:\TFS\Denali\Code\Dev>dir CMSCT.* /s /b
+C:\TFS\Denali\Code\Dev\Build\Debug\CMSCT.exe
+C:\TFS\Denali\Code\Dev\Build\Debug\CMSCT.exe.config
+C:\TFS\Denali\Code\Dev\Build\Debug\CMSCT.exp
+C:\TFS\Denali\Code\Dev\Build\Debug\CMSCT.lib
+C:\TFS\Denali\Code\Dev\Build\Debug\CMSCT.pdb
+C:\TFS\Denali\Code\Dev\Build\Debug\CMSCT.UITest.dll
+C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSCT.exe
+C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSCT.exe.config
+C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSCT.exp
+C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSCT.lib
+C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSCT.pdb
+C:\TFS\Denali\Code\Dev\Build\Release\CMSCT.exe
+C:\TFS\Denali\Code\Dev\Build\Release\CMSCT.exe.config
+C:\TFS\Denali\Code\Dev\Build\Release\CMSCT.exp
+C:\TFS\Denali\Code\Dev\Build\Release\CMSCT.lib
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj.filters
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj.user
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj.vspscc
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Debug\CMSCT.Build.CppClean.log
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Debug\CMSCT.exe.recipe
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Debug\CMSCT.ilk
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Debug\CMSCT.log
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Debug\CMSCT.pch
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Debug\CMSCT.tlog
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Debug\CMSCT.vcxproj.FileListAbsolute.txt
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Debug\CMSCT.tlog\CMSCT.lastbuildstate
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Debug\CMSCT.tlog\CMSCT.write.1u.tlog
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Release\CMSCT.Build.CppClean.log
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Release\CMSCT.exe.recipe
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Release\CMSCT.iobj
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Release\CMSCT.log
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Release\CMSCT.pch
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Release\CMSCT.tlog
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Release\CMSCT.vcxproj.FileListAbsolute.txt
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Release\CMSCT.tlog\CMSCT.lastbuildstate
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Release\CMSCT.tlog\CMSCT.write.1u.tlog
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\Res\CMSCT.manifest
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Debug\CMSCT.Build.CppClean.log
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Debug\CMSCT.exe.recipe
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Debug\CMSCT.ilk
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Debug\CMSCT.log
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Debug\CMSCT.pch
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Debug\CMSCT.tlog
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Debug\CMSCT.vcxproj.FileListAbsolute.txt
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Debug\CMSCT.tlog\CMSCT.lastbuildstate
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Debug\CMSCT.tlog\CMSCT.write.1u.tlog
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Release\CMSCT.Build.CppClean.log
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Release\CMSCT.log
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT\x64\Release\CMSCT.vcxproj.FileListAbsolute.txt
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\CMSCT.UITest.csproj
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\CMSCT.UITest.csproj.vspscc
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\obj\x64\Debug\CMSCT.UITest.csproj.FileListAbsolute.txt
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\obj\x64\Debug\CMSCT.UITest.GeneratedMSBuildEditorConfig.editorconfig
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\obj\x64\Release\CMSCT.UITest.csproj.FileListAbsolute.txt
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\obj\x64\Release\CMSCT.UITest.GeneratedMSBuildEditorConfig.editorconfig
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\obj\x86\Debug\CMSCT.UITest.csproj.AssemblyReference.cache
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\obj\x86\Debug\CMSCT.UITest.csproj.CoreCompileInputs.cache
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\obj\x86\Debug\CMSCT.UITest.csproj.FileListAbsolute.txt
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\obj\x86\Debug\CMSCT.UITest.dll
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\obj\x86\Debug\CMSCT.UITest.pdb
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\obj\x86\Release\CMSCT.UITest.csproj.FileListAbsolute.txt
+C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSCT.UITest\obj\x86\Release\CMSCT.UITest.GeneratedMSBuildEditorConfig.editorconfig
+
+------------------------------
+
+C:\TFS\Denali\Code\Dev>findstr /i /s /n "CMSCT" *.vcxproj *.csproj *.vbproj
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:23:    <RootNamespace>CMSCT32</RootNamespace>
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:29:    <ProjectName>CMSCT</ProjectName>
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:162:      <AdditionalManifestFiles>Res\CMSCT.manifest</AdditionalManifestFiles>
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:236:      <AdditionalManifestFiles>Res\CMSCT.manifest</AdditionalManifestFiles>
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:300:      <AdditionalManifestFiles>Res\CMSCT.manifest</AdditionalManifestFiles>
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:374:      <AdditionalManifestFiles>Res\CMSCT.manifest</AdditionalManifestFiles>
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:381:    <ClCompile Include="CMSCT32.cpp" />
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:382:    <ClCompile Include="CMSCTReportsMenu.cpp" />
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:394:    <ClInclude Include="CMSCT32.h" />
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:395:    <ClInclude Include="CMSCTReportsMenu.h" />
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:404:    <None Include="Res\CMSCT32.ico" />
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:405:    <None Include="Res\CMSCT32.rc2" />
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:406:    <None Include="Res\CMSCT32Doc.ico" />
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:414:    <CustomBuildStep Include="Res\CMSCT.manifest">
+_VC7DENALICLIENT\CMSCT\CMSCT.vcxproj:422:    <ResourceCompile Include="CMSCT32.rc" />
+_VC7DENALICLIENT\CMSCT.UITest\CMSCT.UITest.csproj:12:    <RootNamespace>CMSCT.UITest</RootNamespace>
+_VC7DENALICLIENT\CMSCT.UITest\CMSCT.UITest.csproj:13:    <AssemblyName>CMSCT.UITest</AssemblyName>
+_VC7DENALICLIENT\cmsdll\cmsdll.vcxproj:636:    <ClInclude Include="..\GBLForms\CMSCtrlDataTransFunctors.h" />
+_VC7DENALICLIENT\GBLForms\GBLForms.vcxproj:441:    <ClInclude Include="CMSCtrlDataTransFunctors.h" />
+_VC7DENALICLIENT\GBLForms\GBLForms.vcxproj:442:    <ClInclude Include="CMSCtrlManager.h" />
+_VC7DENALICLIENT\GBLForms\GBLForms.vcxproj:803:    <ClCompile Include="CMSCtrlDataTransFunctors.cpp" />
+_VC7DENALICLIENT\GBLForms\GBLForms.vcxproj:804:    <ClCompile Include="CMSCtrlManager.cpp" />
