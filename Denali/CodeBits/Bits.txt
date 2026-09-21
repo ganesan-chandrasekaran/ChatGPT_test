@@ -1,0 +1,340 @@
+bool CGBLStartup::StartupBeforeMainFrame()
+{
+	/*
+	******************* WARNING! WARNING! WARNING! ******************************
+
+	This is the startup process for all applications.  It is VITAL that this not be
+	modified without express authorization from a Senior Programmer or the Director
+	of Product Development.  Errors here can cause the application to suddenly not work.
+
+	Failure in any of the below routines will cause the application to exit.
+
+	The following routines are run at startup in the following order:
+	1.  Show the splash screen.
+	2.  CGBLSystemInformation load.
+	3.  CheckCOMInterfaces - This is to ensure we can successfully connect to NETDLL and SXMLPARS.
+	4.  Registry.SetupAllValues - This is to get all the machine information and other
+		info from the registry.  This has to be after NETDLL since we use NETDLL to
+		process registry information.
+	5.  GetVersionInfo - This is to get all the version information.
+	6.  Send the application startup event to the event log.
+	7.  CheckClientServerVersion - This is to ensure the version number is the same
+		between the client and server.
+	8.  Login to the Primary Database.
+	9.  Check the Primary Database Version.
+	10. Login to the License Server.
+
+	//12/16/2008 CJB - 1-31566  Per Training & Design, no longer give an error message for screen resolution.
+	//We have a design minimum, but will not disallow users to run it at a lower resolution.
+	11. Ensure screen size meets CMS minimum standards.
+
+	******************* WARNING! WARNING! WARNING! ******************************
+	*/
+
+	////////////////////////////////////////////////////////////////////////////
+	// START OF CMS SPECIFIC PREFIX
+	////////////////////////////////////////////////////////////////////////////
+
+	AfxInitRichEdit2();
+
+	// Give the CMSDLL information about its globals
+	CSetGlobalsCMSDll clsSetGlobalsCMSDll(si);
+
+	if (!si->ParseCommandLineParameters()) // Read the command line parameters before we do anything else
+		return false;
+
+	si->CheckForCommandLineOverrides();	//PTR.07.29.2005
+
+	//1. Show the splash screen.
+	//RCG - 05/27/2011 – 9000006 – Automated Posting
+	// If this is CT and we have a -qt command line option then don't show the splash screen
+	if (m_bShowSplashWindow && si->ApplicationSettings.IsCT())
+		m_bShowSplashWindow = !si->CommandLineSettings.CT_Quiet;
+	else if (m_bShowSplashWindow)	// If this is not CT and we have a -pt command line option then don't show the splash screen
+		m_bShowSplashWindow = !si->CommandLineSettings.Automated_Posting;
+
+	if (m_bShowSplashWindow)
+		m_pTheApp->ShowSplashWnd();
+
+	if (!UpdateSplashScreen(IDS_READING_ENVIRONMENT))
+		return HandleStartupFailure();
+
+	//2. CGBLSystemInformation load.
+	//Now do the process(es)  This needs to be before the CheckCOMInterfaces as it resets variables sent in CheckCOMInterfaces.
+	if (!si->LoadSystemGlobals())
+		return HandleStartupFailure();
+
+	//3. CheckCOMInterfaces - This is to ensure we can successfully connect to NETDLL and SXMLPARS.
+	// KPM, 9/25/2003, Check the interfaces first, no need to show anything if
+	// these are broken
+	if (!CheckCOMInterfaces())
+	{
+		m_pTheApp->HideSplashWnd();
+
+#ifdef _DEBUG
+		// This code is to try to let the threads finish on their own before exiting.
+		// This is only a problem in Debug as you get an assertion error if things don't
+		// close right.
+		COleMessageFilter* pFilter = AfxOleGetMessageFilter();
+		int nCount = 0;
+
+		//PTR.07.26.2005 - Reducing max count from 600 to 100 - which reduces count time
+		//from 60 seconds to 10 seconds.
+		while (pFilter->m_dwRef > 1 && nCount < 100)
+		{
+			nCount++;
+			Sleep(100);
+		}
+
+		pFilter->m_dwRef = 0;
+#endif
+
+		return HandleStartupFailure();
+	}
+
+	//KPM.2005.08.10 Load the help file info
+	si->SetupHelpSystem();
+	CCMSHelpFilesMapLoader::LoadHelpFilesMap(si->ApplicationSettings.ModuleID);
+
+	//4.  Registry.SetupAllValues - This is to get all the machine information and other
+	//    info from the registry.  This has to be after NETDLL since we use NETDLL to
+	//    process registry information.
+	if (!UpdateSplashScreen(IDS_READING_ENVIRONMENT))
+		return HandleStartupFailure();
+
+	// MG 4/08 Opening Denali Modules Routine spec
+	si->RegistryEditor.SetupAllValues();
+
+	// 1-31094 BK 10/23/08 added this line because the line above reads from register primary info from registry after global variables were set from commandline
+	CMS::GetSI()->CheckForCommandLineOverrides();
+
+	//5.  GetVersionInfo - This is to get all the version information.
+	if (!UpdateSplashScreen(IDS_LOGIN_GETTINGVERSIONINFO))
+		return HandleStartupFailure();
+
+	if (!CGBLApplication::GetAllVersionData())
+		return HandleStartupFailure();
+
+	//6. Send the application startup event to the event log.
+	CGBLDebug::MemoryCheckpoint(_T("Send Application Startup Event"));
+
+	CString szCommandLine = GetCommandLine();
+	HidePassword(szCommandLine, _T("cp"));	//Hide the user password.
+	HidePassword(szCommandLine, _T("xp"));	//Hide the primary database password.
+	CXMLDocument docXMLData(CMSStrings::XMLTags::Root);
+	CXMLElement eleRoot = docXMLData.GetDocumentElement();
+	eleRoot.AddNewChild(_T("COMMAND_LINE"), szCommandLine);
+	eleRoot.AddNewChild(_T("CLIENT_VERSION"), si->ApplicationSettings.ClientBuildNumber);
+	eleRoot.AddNewChild(_T("SERVER_VERSION"), si->ApplicationSettings.ServerBuildNumber);
+	CString szLogMsg(_T(""));
+	szLogMsg.Format(RESSTRING(IDS_LOGMSG_APPSTARTUP), AfxGetAppName());
+	CGBLEventLogOptions clsOptions;
+	clsOptions.m_dwEventFlags = EVLOG_XMLCOMMAND;
+	clsOptions.m_eCategory = EventLogCategory_Application;
+	CGBLEventLog::WriteLogXML(EventLog_Startup, szLogMsg, &clsOptions, &docXMLData);
+
+	//7.  CheckClientServerVersion - This is to ensure the version number is the same
+	//    between the client and server.  If this fails, then the application exits.
+	if (!si->ApplicationSettings.DeveloperMode)	//PTR.08.01.2005 - We'll let developers have mismatches.
+		if (!CGBLApplication::DoServerAndClientVersionsMatch())
+			return HandleStartupFailure();
+
+	//8.  Login to the Primary Database.
+	if (!UpdateSplashScreen(IDS_LOGIN_CONNECTINGTOPRIMARYDB))
+		return HandleStartupFailure();
+
+	if (!LoginPrimaryDB())
+		return HandleStartupFailure();
+
+	//9.  Check the Primary Database Version.
+	if (!si->ApplicationSettings.DeveloperMode)	//PTR.08.01.2005 - We'll let developers have mismatches.
+	{
+		switch (CheckPrimaryDBVersion())
+		{
+		case GBLStart_Fail:
+			return HandleStartupFailure();
+			break;
+		case GBLStart_ShutDown:
+			return false;
+			break;
+		}
+	}
+
+	// begbert 03-07-2012 1-36721 : Test security and close if failed.
+	{
+		bool bFailedSecurity = false;
+
+		HMODULE hDotNetDLL = AfxLoadLibrary(_T("CMSDotNet.dll"));
+		CString szUIVersion;
+		if (hDotNetDLL != NULL) // LoadLibrary succeeded
+		{
+			try
+			{
+				GETDLLFUNC(DUI_TestConnectionRights, hDotNetDLL);
+				if (DUI_TestConnectionRights != NULL)
+					DUI_TestConnectionRights(bFailedSecurity);
+				AfxFreeLibrary(hDotNetDLL);
+			}
+			catch (...)
+			{
+			}
+		}
+
+		if (bFailedSecurity)
+		{
+			if (si->CancelApplicationLoad) return false;
+			CGBLForm::ShowCriticalMsg(IDS_INSUFFICIENT_USER_RIGHTS_MSG, IDS_INSUFFICIENT_USER_RIGHTS);
+			return false;
+		}
+	}
+
+	// Made it so this is not run for SQL-2-SQL.
+	if (si->ApplicationSettings.StartupModule != CAppSettings::SQLTOSQL)
+	{
+		// 1-35164 BK 11/22/10 get data version from UI database.  blank result if db does not exist, info table does not exist, data in table is blank or does not exist.
+		HMODULE hDotNetDLL = AfxLoadLibrary(_T("CMSDotNet.dll"));
+		CString szUIVersion;
+		if (hDotNetDLL != NULL) // LoadLibrary succeeded
+		{
+			try
+			{
+				GETDLLFUNC(DUI_GetVersion, hDotNetDLL);
+				if (DUI_GetVersion != NULL)
+					szUIVersion = DUI_GetVersion();
+				AfxFreeLibrary(hDotNetDLL);
+			}
+			catch (...)
+			{
+			}
+		}
+
+		// 1-35164 BK 11/22/10 if CMSDenaliUI database doesn't exist call CMSUIDatabase.exe to create it
+	// LKK 2/8/11 do not run in developer mode. do not run if called from Install Primary Db
+		if (!CMS::GetSI()->ApplicationSettings.DeveloperMode && si->ApplicationSettings.StartupModule != CAppSettings::INSTALLPRIMARYDB)
+		{
+			//RCG - 03/14/2019 - PBI 3586 - Changed comparison of version numbers from string compare
+			auto uiDataVersion = szUIVersion;
+			auto uiDataVersionFromConstants = si->ApplicationSettings.UIDataVersion;
+			// compare versions
+			auto uiVersion = CGBLForm::CompareVersions(uiDataVersion, uiDataVersionFromConstants);
+
+			switch (uiVersion)
+			{
+			case enuVersionTime::SAME:
+				break;
+			case enuVersionTime::NEWER:
+			case enuVersionTime::OLDER:
+				//RCG - 03/14/2019 - Bug 49320 - Run Update Navigation Database when Data Version in CMSDenaliUI database is newer
+				if (!CGBLForm::LaunchExecutable(_T("CMSUIDatabase.exe"), true, _T("-si")))
+				{
+					//error message if file not found //LKK 12/20/10 changed to use string resources
+					CGBLForm::CMSMessageBox(si->ApplicationMainFrame, IDS_ERR_UPDATE_UIDB, IDS_ERR_UIDB_UTILITY_NOT_FOUND, MB_OK | MB_ICONEXCLAMATION);
+				}
+				break;
+			default:
+				throw new CCMSException(_T("Value of enum enuVersionTime is not supported"));
+			}
+		}
+	}
+
+	// begbert 01-29-2009 1-34136 : Moved this prior to logging into the license server
+	//   so that the sales entry module parameter will have been read.
+	CCommandLineInfo cmdInfo;
+	m_pTheApp->ParseCommandLine(cmdInfo);
+
+	bool ShowMessage = !(CMS::GetSI()->CommandLineSettings.CT_Quiet || CMS::GetSI()->CommandLineSettings.Automated_Posting);
+
+	//10. Login to the License Server.
+	if (!UpdateSplashScreen(IDS_LOGIN_CONNECTINGTOLICSERVER))
+		return HandleStartupFailure();
+
+	// begbert 01-29-2009 1-34136 : Is were on Sales Entry, temporary set the module ID to the
+	//   specific module mode we're in (OE/POS) so that the license server will screen by it.
+	UINT uinModule = si->ApplicationSettings.ModuleID;
+	if (si->ApplicationSettings.IsSA() &&
+		si->ModuleSettings.SASettings.Module != 0)
+	{
+		if (si->ModuleSettings.SASettings.Module == IDS_OE_MODULE)
+			si->ApplicationSettings.ModuleID = IDS_OE_MODULE;
+		else if (si->ModuleSettings.SASettings.Module == IDS_PS_MODULE)
+			si->ApplicationSettings.ModuleID = IDS_PS_MODULE;
+	}
+
+	if (!GetTenantID(ShowMessage))
+	{
+		m_pTheApp->HideSplashWnd();
+#ifdef _DEBUG
+		// This code is to try to let the threads finish on their own before exiting.
+		// This is only a problem in Debug as you get an assertion error if things don't
+		// close right.
+		COleMessageFilter* pFilter = AfxOleGetMessageFilter();
+		int nCount = 0;
+		//PTR.07.26.2005 - Reducing max count from 600 to 100 - which reduces count time
+		//from 60 seconds to 10 seconds.
+		while (pFilter->m_dwRef > 1 && nCount < 100)
+		{
+			nCount++;
+			Sleep(100);
+		}
+		pFilter->m_dwRef = 0;
+#endif
+		return HandleStartupFailure();
+	}
+
+	if (!LoginLicenseServer(ShowMessage))
+	{
+		m_pTheApp->HideSplashWnd();
+#ifdef _DEBUG
+		// This code is to try to let the threads finish on their own before exiting.
+		// This is only a problem in Debug as you get an assertion error if things don't
+		// close right.
+		COleMessageFilter* pFilter = AfxOleGetMessageFilter();
+		int nCount = 0;
+		//PTR.07.26.2005 - Reducing max count from 600 to 100 - which reduces count time
+		//from 60 seconds to 10 seconds.
+		while (pFilter->m_dwRef > 1 && nCount < 100)
+		{
+			nCount++;
+			Sleep(100);
+		}
+		pFilter->m_dwRef = 0;
+#endif
+		return HandleStartupFailure();
+	}
+
+	// begbert 01-29-2009 1-34136 : Restore the Module ID.
+	si->ApplicationSettings.ModuleID = uinModule;
+
+	//11. Ensure screen size meets CMS minimum standards.
+	if (!UpdateSplashScreen(IDS_LOGIN_STARTINGAPPLICATION))
+		return HandleStartupFailure();
+
+	//12/16/2008 CJB - 1-31566  Per Training & Design, no longer give an error message for screen resolution.
+	//We have a design minimum, but will not disallow users to run it at a lower resolution.
+	//// Check for screen size
+	//// handle the environment setting
+	//int cx = GetSystemMetrics(SM_CXSCREEN) ;		// width
+	//int cy = GetSystemMetrics(SM_CYSCREEN) ;		// height
+	//if((cx < 1024) || (cy < 768))
+	//{
+	//	CString sMsg ;
+	//	sMsg.Format(RESSTRING(IDS_RES_ERROR), cx, cy) ;
+	//	CGBLForm::CMSMessageBox(NULL, 0, IDS_COUGAR_MOUNTAIN, MB_OK | MB_ICONERROR,	sMsg) ;
+	//	return HandleStartupFailure() ;
+	//}
+
+	//////////////////////////////////////////////////////////////////////////////////
+	// END OF CMS SPECIFIC PREFIX
+	//////////////////////////////////////////////////////////////////////////////////
+	// Initialize OLE libraries, moved up AfxOleInit as part of fixing stack corruption.
+	//if (!AfxOleInit())
+	//	return FALSE ;
+
+	AfxEnableControlContainer();
+
+	//KPM, 4/26/2004, Get the server name for IN
+	if (si->ApplicationSettings.ModuleID == IDS_IN_MODULE)
+		si->Servers.ServerComponentsMachineName = CGBLServer::GetServerMachineName();
+
+	return true;
+}
