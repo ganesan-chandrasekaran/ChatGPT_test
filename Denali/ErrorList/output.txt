@@ -1,0 +1,73 @@
+1>------ Build started: Project: DenaliDictionaryPt3, Configuration: Debug x64 ------
+2>------ Build started: Project: CMSUtil, Configuration: Debug x64 ------
+3>------ Build started: Project: CMSDenaliCommon, Configuration: Debug x64 ------
+4>------ Build started: Project: DenaliBIProcessing, Configuration: Debug x64 ------
+3>  CMSDenaliCommon -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDenaliCommon.dll
+5>------ Build started: Project: CMGraphics, Configuration: Debug x64 ------
+6>------ Build started: Project: CMRESX, Configuration: Debug x64 ------
+7>------ Build started: Project: CMSDenaliUIControls, Configuration: Debug x64 ------
+8>------ Build started: Project: DenaliServerGlobals, Configuration: Debug x64 ------
+9>------ Build started: Project: ShrNet, Configuration: Debug x64 ------
+10>------ Build started: Project: DundasStatic, Configuration: Debug x64 ------
+11>------ Build started: Project: CMSLANG409, Configuration: Debug x64 ------
+11>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+11>Done building project "CMSLANG409.vcxproj" -- FAILED.
+12>------ Build started: Project: DenaliDictionaryPt2, Configuration: Debug x64 ------
+13>------ Build started: Project: DenaliDictionaryPt1, Configuration: Debug x64 ------
+13>  DenaliDictionaryPt1 -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDictionary.dll
+14>------ Build started: Project: DenaliCommandParser, Configuration: Debug x64 ------
+14>  DenaliCommandParser -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.dll
+15>------ Build started: Project: NETDLL, Configuration: Debug x64 ------
+15>  NETDLL -> C:\TFS\Denali\Code\Dev\Build\Debugx64\NETDLL.dll
+15>  Assembly exported to 'C:\TFS\Denali\Code\Dev\Build\Debugx64\NETDLL.tlb'
+16>------ Build started: Project: CMCommon, Configuration: Debug x64 ------
+16>  CMCommon -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMCommon.dll
+17>------ Build started: Project: CMSAPForms, Configuration: Debug x64 ------
+18>------ Build started: Project: CMSBudgetLibrary, Configuration: Debug x64 ------
+19>------ Build started: Project: CMSSAForms, Configuration: Debug x64 ------
+20>------ Build started: Project: CMSARForms, Configuration: Debug x64 ------
+20>  CMSARForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSARForms.dll
+21>------ Build started: Project: CMSGLForms, Configuration: Debug x64 ------
+21>  CMSGLForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSGLForms.dll
+18>  CMSBudgetLibrary -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSBudgetLibrary.dll
+17>  CMSAPForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSAPForms.dll
+22>------ Build started: Project: CMSDotNet, Configuration: Debug x64 ------
+22>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+22>Done building project "CMSDotNet.vcxproj" -- FAILED.
+23>------ Build started: Project: cmsdll, Configuration: Debug x64 ------
+23>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+23>Done building project "cmsdll.vcxproj" -- FAILED.
+24>------ Build started: Project: GBLForms, Configuration: Debug x64 ------
+24>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+24>Done building project "GBLForms.vcxproj" -- FAILED.
+25>------ Build started: Project: GLForms, Configuration: Debug x64 ------
+26>------ Build started: Project: cmshwwiz, Configuration: Debug x64 ------
+27>------ Build started: Project: POForms, Configuration: Debug x64 ------
+25>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+25>Done building project "GLForms.vcxproj" -- FAILED.
+27>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+27>Done building project "POForms.vcxproj" -- FAILED.
+28>------ Build started: Project: BRForms, Configuration: Debug x64 ------
+29>------ Build started: Project: INForms, Configuration: Debug x64 ------
+26>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+26>Done building project "cmshwwiz.vcxproj" -- FAILED.
+28>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+28>Done building project "BRForms.vcxproj" -- FAILED.
+29>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+29>Done building project "INForms.vcxproj" -- FAILED.
+30>------ Build started: Project: APForms, Configuration: Debug x64 ------
+30>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+30>Done building project "APForms.vcxproj" -- FAILED.
+31>------ Build started: Project: CTForms, Configuration: Debug x64 ------
+31>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+31>Done building project "CTForms.vcxproj" -- FAILED.
+32>------ Build started: Project: ARForms, Configuration: Debug x64 ------
+32>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+32>Done building project "ARForms.vcxproj" -- FAILED.
+33>------ Build started: Project: saforms, Configuration: Debug x64 ------
+33>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+33>Done building project "saforms.vcxproj" -- FAILED.
+34>------ Build started: Project: CMSCT, Configuration: Debug x64 ------
+34>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+34>Done building project "CMSCT.vcxproj" -- FAILED.
+========== Build: 19 succeeded, 15 failed, 0 up-to-date, 0 skipped ==========
