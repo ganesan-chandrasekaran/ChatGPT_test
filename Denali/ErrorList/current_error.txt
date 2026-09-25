@@ -1,0 +1,1188 @@
+Severity	Code	Description	Project	File	Line	Suppression State
+Error (active)	E1696	cannot open source file "vcruntime.h"	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h	10	
+Error (active)	E1696	cannot open source file "vcruntime_new_debug.h"	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	13	
+Error (active)	E1696	cannot open source file "stdexcept"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\CMSCOMComponent.h	22	
+Error (active)	E1696	cannot open source file "string"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\CMSCOMComponent.h	23	
+Error (active)	E1696	cannot open source file "afxwin.h"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\StdAfx.h	34	
+Error (active)	E1696	cannot open source file "afxext.h"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\StdAfx.h	35	
+Error (active)	E1696	cannot open source file "afxole.h"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\StdAfx.h	38	
+Error (active)	E1696	cannot open source file "afxodlgs.h"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\StdAfx.h	39	
+Error (active)	E1696	cannot open source file "afxdisp.h"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\StdAfx.h	40	
+Error (active)	E1696	cannot open source file "afxdtctl.h"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\StdAfx.h	43	
+Error (active)	E1696	cannot open source file "afxcmn.h"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\StdAfx.h	45	
+Error (active)	E1696	cannot open source file "AfxTempl.h"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\StdAfx.h	50	
+Error (active)	E1696	cannot open source file "afxdhtml.h"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\StdAfx.h	52	
+Error (active)	E1696	cannot open source file "afx.h"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\StdAfx.h	53	
+Error (active)	E1696	cannot open source file "comdef.h"	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	11	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h	12	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h	136	
+Error (active)	E0145	variable "_invalid_parameter" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h	269	
+Error (active)	E0020	identifier "_In_opt_z_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h	270	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h	270	
+Error (active)	E1835	attribute "noreturn" does not apply here	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h	281	
+Error (active)	E0145	variable "_invoke_watson" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h	282	
+Error (active)	E0020	identifier "_In_opt_z_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h	283	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h	283	
+Error (active)	E0020	identifier "_CRT_END_C_HEADER" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h	2011	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	19	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	45	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	46	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	52	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	108	
+Error (active)	E0020	identifier "_CRT_ALLOC_HOOK" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	158	
+Error (active)	E0020	identifier "_CRT_ALLOC_HOOK" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	160	
+Error (active)	E0020	identifier "_In_opt_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	161	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	161	
+Error (active)	E0020	identifier "_CRT_DUMP_CLIENT" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	164	
+Error (active)	E0020	identifier "_CRT_DUMP_CLIENT" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	166	
+Error (active)	E0020	identifier "_In_opt_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	167	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	167	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	177	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	177	
+Error (active)	E0145	variable "_CrtIsMemoryBlock" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	183	
+Error (active)	E0020	identifier "_In_opt_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	184	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	184	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	191	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	192	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	196	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	197	
+Error (active)	E0020	identifier "_Out_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	204	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	204	
+Error (active)	E0020	identifier "_Out_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	208	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	208	
+Error (active)	E0020	identifier "_In_opt_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	214	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	214	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	218	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	218	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	221	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	222	
+Error (active)	E0145	variable "_CrtSetBreakAlloc" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	226	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	227	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	227	
+Error (active)	E0145	variable "_CrtSetDbgFlag" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	230	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	231	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	231	
+Error (active)	E0020	identifier "_Pre_maybenull_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	329	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	329	
+Error (active)	E0757	variable "_Check_return_" is not a type name	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	332	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	332	
+Error (active)	E0145	variable "_aligned_msize_dbg" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	340	
+Error (active)	E0020	identifier "_Pre_notnull_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	341	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	341	
+Error (active)	E0757	variable "_Check_return_" is not a type name	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	346	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	346	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	355	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	355	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	355	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	365	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	365	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	365	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	376	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	376	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	376	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	385	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	385	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	385	
+Error (active)	E0757	variable "_Check_return_" is not a type name	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	395	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	395	
+Error (active)	E0757	variable "_Check_return_" is not a type name	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	404	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	404	
+Error (active)	E0020	identifier "_Pre_maybenull_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	414	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	414	
+Error (active)	E0757	variable "_Check_return_" is not a type name	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	418	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	418	
+Error (active)	E0145	variable "_msize_dbg" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	426	
+Error (active)	E0020	identifier "_Pre_notnull_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	427	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	427	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	431	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	431	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	431	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	440	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	440	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	440	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	450	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	450	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	452	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	461	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	461	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	462	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	472	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	472	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	473	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	483	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	483	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	484	
+Error (active)	E0757	variable "_Check_return_" is not a type name	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	494	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	495	
+Error (active)	E0757	variable "_Check_return_" is not a type name	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	502	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	503	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	511	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	511	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	512	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	520	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	520	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	522	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	531	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	531	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	532	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	542	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	542	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	543	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	552	
+Error (active)	E0029	expected an expression	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	552	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	553	
+Error (active)	E0757	variable "_Check_return_" is not a type name	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	563	
+Error (active)	E0065	expected a ';'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	564	
+Error (active)	E0145	variable "_CrtDbgReport" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	607	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	608	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	608	
+Error (active)	E0145	variable "_CrtDbgReportW" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	615	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	616	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	616	
+Error (active)	E0145	variable "_VCrtDbgReportA" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	624	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	625	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	625	
+Error (active)	E0145	variable "_VCrtDbgReportW" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	634	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	635	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	635	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	645	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	645	
+Error (active)	E0020	identifier "_HFILE" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	650	
+Error (active)	E0145	variable "_CrtSetReportFile" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	650	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	651	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	651	
+Error (active)	E0145	variable "_CrtSetReportMode" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	655	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	656	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	656	
+Error (active)	E0020	identifier "_CRT_REPORT_HOOK" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	664	
+Error (active)	E0020	identifier "_CRT_REPORT_HOOK" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	669	
+Error (active)	E0020	identifier "_In_opt_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	670	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	670	
+Error (active)	E0145	variable "_CrtSetReportHook2" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	673	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	674	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	674	
+Error (active)	E0145	variable "_CrtSetReportHookW2" may not be initialized	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	678	
+Error (active)	E0020	identifier "_In_" is undefined	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	679	
+Error (active)	E0018	expected a ')'	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	679	
+Error (active)	E0077	this declaration has no storage class or type specifier	cmsdll	C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h	809	
+Error (active)	E0065	expected a ';'	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\CMSCOMComponent.h	34	
+Error (active)	E0020	identifier "CString" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\CMSCOMComponent.h	179	
+Error (active)	E0020	identifier "CString" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\CMSCOMComponent.h	232	
+Error (active)	E0020	identifier "CString" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\CMSCOMComponent.h	285	
+Error (active)	E0020	identifier "CLSID" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\CMSCOMComponent.h	535	
+Error (active)	E0020	identifier "LPVOID" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\CMSCOMComponent.h	535	
+Error (active)	E0020	identifier "CString" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\CMSCOMComponent.h	561	
+Error (active)	E0020	identifier "CString" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\CMSCOMComponent.h	577	
+Error (active)	E2996	There are too many errors for the IntelliSense engine to function properly, some of which may not be visible in the editor.	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\GBLSystemInformation.cpp	1	
+Error (active)	E2998	PCH warning: an unknown error occurred.  An IntelliSense PCH file was not generated.	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\GBLSystemInformation.cpp	1	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	216	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	216	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	217	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	217	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	218	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	218	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	219	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	219	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	220	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	220	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	221	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	221	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	222	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	222	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	223	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	223	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	224	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	224	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	225	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	225	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	226	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	226	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	227	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	227	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	228	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	228	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	229	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	229	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	230	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	230	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	231	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	231	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	232	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	232	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	233	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	233	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	234	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	234	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	235	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	235	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	236	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	236	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	237	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	237	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	238	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	238	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	239	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	239	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	240	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	240	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	241	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	241	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	242	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	242	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	243	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	243	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	244	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	244	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	245	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	245	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	246	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	246	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	247	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	247	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	248	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	248	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	249	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	249	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	250	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	250	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	251	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	251	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	252	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	252	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	253	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	253	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	254	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	254	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	255	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	255	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	256	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	256	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	257	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	257	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	258	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	258	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	259	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	259	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	260	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	260	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	261	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	261	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	262	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	262	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	263	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	263	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	264	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	264	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	265	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	265	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	266	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	266	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	267	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	267	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	268	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	268	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	269	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	269	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	270	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	270	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	271	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	271	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	272	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	272	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	273	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	273	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	274	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	274	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	275	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	275	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	276	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	276	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	277	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	277	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	278	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	278	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	279	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	279	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	280	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	280	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	281	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	281	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	282	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	282	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	283	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	283	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	284	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	284	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	285	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	285	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	286	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	286	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	287	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	287	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	288	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	288	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	289	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	289	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	290	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	290	
+Error (active)	E0260	explicit type is missing ('int' assumed)	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	291	
+Error (active)	E0079	expected a type specifier	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	291	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	315	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	321	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	322	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	323	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	329	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	330	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	331	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	332	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	336	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	345	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	347	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	349	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	362	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	363	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	364	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	373	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	375	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	376	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	377	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	378	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	379	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	380	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	381	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	383	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	385	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	390	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	396	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	404	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	407	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	411	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	426	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	428	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	430	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	432	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	437	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	444	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	448	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	452	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	456	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	472	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	476	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	483	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	488	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	492	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	499	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	509	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	511	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	515	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	519	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	523	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	531	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	537	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	541	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	545	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	552	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	557	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	561	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	568	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	576	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	582	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	584	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	585	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	586	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	591	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	594	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	602	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	609	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	612	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	615	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	620	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	628	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	630	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	631	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	632	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	637	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	640	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	648	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	655	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	658	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	661	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	666	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	672	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	678	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	685	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	699	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	706	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	718	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	724	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	727	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	728	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	731	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	732	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	735	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	741	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	744	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	745	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	748	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	749	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	752	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	756	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	762	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	764	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	766	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	767	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	769	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	771	
+Error (active)	E0020	identifier "ISAXEntityResolverPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	772	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	773	
+Error (active)	E0020	identifier "ISAXContentHandlerPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	775	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	776	
+Error (active)	E0020	identifier "ISAXDTDHandlerPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	778	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	779	
+Error (active)	E0020	identifier "ISAXErrorHandlerPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	781	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	782	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	785	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	788	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	790	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	791	
+Error (active)	E0020	identifier "vtMissing" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	791	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	792	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	799	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	801	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	802	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	804	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	805	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	807	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	808	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	810	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	811	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	813	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	815	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	817	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	819	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	821	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	823	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	825	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	827	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	829	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	831	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	833	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	835	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	836	
+Error (active)	E0020	identifier "vtMissing" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	836	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	837	
+Error (active)	E0020	identifier "ISAXXMLReaderPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	848	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	849	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	856	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	858	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	863	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	869	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	870	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	871	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	877	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	878	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	879	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	880	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	884	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	895	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	897	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	905	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	906	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	912	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	914	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	916	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	917	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	918	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	919	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	923	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	937	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	939	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	941	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	944	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	945	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	947	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	948	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	950	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	951	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	952	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	953	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	954	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	955	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	957	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	958	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	959	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	960	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	961	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	967	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	969	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	971	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	972	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	974	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	975	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	977	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	978	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	979	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	980	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	982	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	983	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	985	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	987	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	988	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	989	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	990	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	991	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	992	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	993	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	994	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	995	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	997	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	998	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	999	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1000	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1001	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1002	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1003	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1004	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1008	
+Error (active)	E0020	identifier "IVBSAXLocatorPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1015	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1023	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1024	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1025	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1026	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1027	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1028	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1029	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1030	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1031	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1032	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1033	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1035	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1036	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1037	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1038	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1039	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1040	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1041	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1042	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1043	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1044	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1045	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1046	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1047	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1053	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1055	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1056	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1057	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1058	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1059	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1060	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1061	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1062	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1063	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1064	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1065	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1067	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1068	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1069	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1070	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1071	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1072	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1073	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1074	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1075	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1076	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1077	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1078	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1079	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1083	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1089	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1090	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1091	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1092	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1093	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1094	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1095	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1096	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1097	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1103	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1104	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1105	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1106	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1107	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1108	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1109	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1110	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1111	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1115	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1121	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1123	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1125	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1127	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1129	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1131	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1138	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1140	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1142	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1144	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1146	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1148	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1153	
+Error (active)	E0020	identifier "IVBSAXEntityResolverPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1160	
+Error (active)	E0020	identifier "IVBSAXContentHandlerPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1162	
+Error (active)	E0020	identifier "IVBSAXDTDHandlerPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1164	
+Error (active)	E0020	identifier "IVBSAXErrorHandlerPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1166	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1168	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1170	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1176	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1177	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1178	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1179	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1180	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1181	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1182	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1183	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1184	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1185	
+Error (active)	E0020	identifier "IVBSAXEntityResolverPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1186	
+Error (active)	E0020	identifier "IVBSAXContentHandlerPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1189	
+Error (active)	E0020	identifier "IVBSAXDTDHandlerPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1192	
+Error (active)	E0020	identifier "IVBSAXErrorHandlerPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1195	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1198	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1200	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1201	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1203	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1204	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1205	
+Error (active)	E0020	identifier "vtMissing" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1205	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1206	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1207	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1213	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1214	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1215	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1216	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1217	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1218	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1219	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1220	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1221	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1222	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1223	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1224	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1225	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1227	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1229	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1231	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1233	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1235	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1237	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1239	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1241	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1242	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1243	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1244	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1245	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1246	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1247	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1248	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1249	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1250	
+Error (active)	E0020	identifier "vtMissing" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1250	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1251	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1252	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1256	
+Error (active)	E0020	identifier "IVBSAXXMLReaderPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1263	
+Error (active)	E0020	identifier "IVBSAXXMLReaderPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1269	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1277	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1279	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1284	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1290	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1291	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1292	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1298	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1299	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1300	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1304	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1311	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1315	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1321	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1324	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1330	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1332	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1333	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1335	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1336	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1461	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1468	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1470	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1472	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1474	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1480	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1481	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1482	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1483	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1484	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1485	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1486	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1487	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1488	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1489	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1490	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1492	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1493	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1495	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1496	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1498	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1499	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1501	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1507	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1508	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1509	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1510	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1511	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1512	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1513	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1514	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1515	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1516	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1517	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1518	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1519	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1520	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1521	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1522	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1523	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1524	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1525	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1526	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1527	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1528	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1529	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1530	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1531	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1532	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1533	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1534	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1545	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1552	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1553	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1635	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1644	
+Error (active)	E0020	identifier "IDispatchPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1646	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1648	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1650	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1652	
+Error (active)	E0020	identifier "IDispatchPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1656	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1662	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1663	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1664	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1665	
+Error (active)	E0020	identifier "vtMissing" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1665	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1666	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1667	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1668	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1669	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1670	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1671	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1672	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1673	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1674	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1675	
+Error (active)	E0020	identifier "vtMissing" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1675	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1676	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1678	
+Error (active)	E0020	identifier "IDispatchPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1679	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1680	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1681	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1682	
+Error (active)	E0020	identifier "IDispatch" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1685	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1691	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1692	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1693	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1694	
+Error (active)	E0020	identifier "vtMissing" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1694	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1695	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1696	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1697	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1698	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1699	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1700	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1701	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1702	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1703	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1704	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1705	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1706	
+Error (active)	E0020	identifier "vtMissing" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1706	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1707	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1708	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1710	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1711	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1712	
+Error (active)	E0020	identifier "IDispatch" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1713	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1714	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1715	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1716	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1717	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1718	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1719	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1720	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1722	
+Error (active)	E0020	identifier "IDispatch" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1723	
+Error (active)	E0020	identifier "LPWSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1734	
+Error (active)	E0020	identifier "LPWSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1735	
+Error (active)	E0020	identifier "LPWSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1736	
+Error (active)	E0020	identifier "LPWSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1737	
+Error (active)	E0070	incomplete type is not allowed	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1738	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1771	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1776	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1777	
+Error (active)	E0020	identifier "vtMissing" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1777	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1778	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1780	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1782	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1788	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1793	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1794	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1795	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1796	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1798	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1799	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1801	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1811	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1813	
+Error (active)	E0020	identifier "vtMissing" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1813	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1814	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1815	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1816	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1817	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1823	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1825	
+Error (active)	E0020	identifier "vtMissing" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1825	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1826	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1827	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1828	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1829	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1852	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1859	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1861	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1863	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1865	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1867	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1869	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1871	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1873	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1880	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1881	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1883	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1884	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1886	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1887	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1889	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1890	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1892	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1893	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1895	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1896	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1898	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1899	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1901	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1902	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1903	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1909	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1910	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1911	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1912	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1913	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1914	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1915	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1916	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1917	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1918	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1919	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1920	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1921	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1922	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1923	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1924	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1925	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1926	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1927	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1928	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1929	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1930	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1931	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1932	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1933	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1934	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1935	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1936	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1937	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1938	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1939	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1940	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1941	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1945	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1951	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1956	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1967	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1972	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1984	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	1989	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2000	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2005	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2015	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2021	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2028	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2029	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2032	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2035	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2036	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2037	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2045	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2052	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2053	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2056	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2059	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2060	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2061	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2067	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2073	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2074	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2075	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2076	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2077	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2078	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2079	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2080	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2081	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2082	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2083	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2084	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2085	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2086	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2087	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2088	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2094	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2095	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2096	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2097	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2098	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2099	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2100	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2101	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2102	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2103	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2104	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2105	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2106	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2107	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2108	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2109	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2113	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2119	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2120	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2121	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2122	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2123	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2124	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2125	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2126	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2127	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2128	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2129	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2130	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2131	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2137	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2138	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2139	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2140	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2141	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2142	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2143	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2144	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2145	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2146	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2147	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2148	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2149	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2173	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2179	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2180	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2181	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2182	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2183	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2184	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2185	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2186	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2188	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2189	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2191	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2193	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2194	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2195	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2196	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2197	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2198	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2199	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2200	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2202	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2203	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2205	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2206	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2208	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2209	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2211	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2212	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2214	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2220	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2221	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2222	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2223	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2224	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2225	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2226	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2227	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2229	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2230	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2232	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2234	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2235	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2236	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2237	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2238	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2239	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2240	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2241	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2243	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2244	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2246	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2247	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2249	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2250	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2252	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2253	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2255	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2264	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2271	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2275	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2281	
+Error (active)	E0020	identifier "IUnknownPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2284	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2290	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2292	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2293	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2295	
+Error (active)	E0020	identifier "IUnknown" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2296	
+Error (active)	E0262	not a class or struct name	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2300	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2307	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2309	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2313	
+Error (active)	E0020	identifier "IXMLDOMNodeListPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2315	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2317	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2319	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2321	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2323	
+Error (active)	E0020	identifier "IXMLDOMNamedNodeMapPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2325	
+Error (active)	E0020	identifier "IXMLDOMDocumentPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2327	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2329	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2331	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2333	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2335	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2337	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2339	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2341	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2343	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2345	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2347	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2353	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2354	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2356	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2358	
+Error (active)	E0020	identifier "IXMLDOMNodeListPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2359	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2360	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2361	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2362	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2363	
+Error (active)	E0020	identifier "IXMLDOMNamedNodeMapPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2364	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2365	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2367	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2368	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2371	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2373	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2375	
+Error (active)	E0020	identifier "IXMLDOMDocumentPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2376	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2377	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2378	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2379	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2380	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2382	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2383	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2384	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2385	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2387	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2388	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2390	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2391	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2392	
+Error (active)	E0020	identifier "IXMLDOMNodeListPtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2394	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2395	
+Error (active)	E0020	identifier "IXMLDOMNodePtr" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2396	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2397	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2398	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2399	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2400	
+Error (active)	E0020	identifier "_bstr_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2401	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2402	
+Error (active)	E0020	identifier "_variant_t" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2404	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2410	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2411	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2412	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2413	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2414	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2415	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2416	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2418	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2420	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2422	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2424	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2426	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2428	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2430	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2432	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2434	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2436	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2440	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2443	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2446	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2447	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2448	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2450	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2451	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2453	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2454	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2455	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2456	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2457	
+Error (active)	E0020	identifier "BSTR" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2458	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2459	
+Error (active)	E0020	identifier "VARIANT_BOOL" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2460	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2461	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2463	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2464	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2465	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2466	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2467	
+Error (active)	E0020	identifier "VARIANT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2468	
+Error (active)	E0020	identifier "HRESULT" is undefined	cmsdll	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\cmsdll\x64\Debug\msxml6.tlh	2469	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	CMSLANG409	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	CMSDotNet	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	cmsdll	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	GBLForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	GLForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	cmshwwiz	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	BRForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	INForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	APForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	CTForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	ARForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	saforms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
+Error	MSB8070	Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.	CMSCT	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets	427	
