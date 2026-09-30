@@ -1,73 +1,113 @@
-1>------ Build started: Project: DenaliDictionaryPt3, Configuration: Debug x64 ------
-2>------ Build started: Project: CMSUtil, Configuration: Debug x64 ------
-3>------ Build started: Project: CMSDenaliCommon, Configuration: Debug x64 ------
-4>------ Build started: Project: DenaliBIProcessing, Configuration: Debug x64 ------
-3>  CMSDenaliCommon -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDenaliCommon.dll
-5>------ Build started: Project: CMGraphics, Configuration: Debug x64 ------
-6>------ Build started: Project: CMRESX, Configuration: Debug x64 ------
-7>------ Build started: Project: CMSDenaliUIControls, Configuration: Debug x64 ------
-8>------ Build started: Project: DenaliServerGlobals, Configuration: Debug x64 ------
-9>------ Build started: Project: ShrNet, Configuration: Debug x64 ------
-10>------ Build started: Project: DundasStatic, Configuration: Debug x64 ------
-11>------ Build started: Project: CMSLANG409, Configuration: Debug x64 ------
-11>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+Build started...
+1>------ Build started: Project: DenaliDictionaryPt3, Configuration: Debug x86 ------
+2>------ Build started: Project: CMSUtil, Configuration: Debug x86 ------
+3>------ Build started: Project: CMSDenaliCommon, Configuration: Debug x86 ------
+4>------ Build started: Project: DenaliBIProcessing, Configuration: Debug x86 ------
+3>  CMSDenaliCommon -> C:\TFS\Denali\Code\Dev\Build\Debug\CMSDenaliCommon.dll
+4>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(4679,5): warning MSB3026: Could not copy "C:\TFS\Denali\Code\Dev\packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.xml" to "..\..\Build\Debug\Newtonsoft.Json.xml". Beginning retry 1 in 1000ms. The process cannot access the file '..\..\Build\Debug\Newtonsoft.Json.xml' because it is being used by another process. 
+1>  DenaliDictionaryPt3 -> C:\TFS\Denali\Code\Dev\Build\Debug\CMSDictionary3.dll
+2>  CMSUtil -> C:\TFS\Denali\Code\Dev\Build\Debug\CMSUtil.dll
+5>------ Build started: Project: CMGraphics, Configuration: Debug x86 ------
+6>------ Build started: Project: DenaliServerGlobals, Configuration: Debug x86 ------
+7>------ Build started: Project: ShrNet, Configuration: Debug x86 ------
+4>  DenaliBIProcessing -> C:\TFS\Denali\Code\Dev\Build\Debug\DenaliBIProcessing.dll
+5>  CMGraphics -> C:\TFS\Denali\Code\Dev\Build\Debug\CMGraphics.dll
+8>------ Build started: Project: CMRESX, Configuration: Debug x86 ------
+9>------ Build started: Project: CMSDenaliUIControls, Configuration: Debug x86 ------
+7>  ShrNet -> C:\TFS\Denali\Code\Dev\Build\Debug\ShrNet.dll
+10>------ Build started: Project: DundasStatic, Configuration: Debug Win32 ------
+10>stdafx.cpp
+10>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+10>Done building project "DundasStatic.vcxproj" -- FAILED.
+11>------ Build started: Project: CMSLANG409, Configuration: Debug Win32 ------
+11>StdAfx.cpp
+11>C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSLANG409\stdafx.h(29,10): fatal error C1083: Cannot open include file: 'windows.h': No such file or directory
 11>Done building project "CMSLANG409.vcxproj" -- FAILED.
-12>------ Build started: Project: DenaliDictionaryPt2, Configuration: Debug x64 ------
-13>------ Build started: Project: DenaliDictionaryPt1, Configuration: Debug x64 ------
-13>  DenaliDictionaryPt1 -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDictionary.dll
-14>------ Build started: Project: DenaliCommandParser, Configuration: Debug x64 ------
-14>  DenaliCommandParser -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.dll
-15>------ Build started: Project: NETDLL, Configuration: Debug x64 ------
-15>  NETDLL -> C:\TFS\Denali\Code\Dev\Build\Debugx64\NETDLL.dll
-15>  Assembly exported to 'C:\TFS\Denali\Code\Dev\Build\Debugx64\NETDLL.tlb'
-16>------ Build started: Project: CMCommon, Configuration: Debug x64 ------
-16>  CMCommon -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMCommon.dll
-17>------ Build started: Project: CMSAPForms, Configuration: Debug x64 ------
-18>------ Build started: Project: CMSBudgetLibrary, Configuration: Debug x64 ------
-19>------ Build started: Project: CMSSAForms, Configuration: Debug x64 ------
-20>------ Build started: Project: CMSARForms, Configuration: Debug x64 ------
-20>  CMSARForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSARForms.dll
-21>------ Build started: Project: CMSGLForms, Configuration: Debug x64 ------
-21>  CMSGLForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSGLForms.dll
-18>  CMSBudgetLibrary -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSBudgetLibrary.dll
-17>  CMSAPForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSAPForms.dll
-22>------ Build started: Project: CMSDotNet, Configuration: Debug x64 ------
-22>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+8>  CMRESX -> C:\TFS\Denali\Code\Dev\Build\Debug\CMRESX.dll
+9>  CMSDenaliUIControls -> C:\TFS\Denali\Code\Dev\Build\Debug\CMSDenaliUIControls.dll
+6>  DenaliServerGlobals -> C:\TFS\Denali\Code\Dev\Build\Debug\CMSServerGlobals.dll
+12>------ Build started: Project: DenaliDictionaryPt2, Configuration: Debug x86 ------
+12>  DenaliDictionaryPt2 -> C:\TFS\Denali\Code\Dev\Build\Debug\CMSDictionary2.dll
+13>------ Build started: Project: DenaliDictionaryPt1, Configuration: Debug x86 ------
+13>  DenaliDictionaryPt1 -> C:\TFS\Denali\Code\Dev\Build\Debug\CMSDictionary.dll
+14>------ Build started: Project: DenaliCommandParser, Configuration: Debug x86 ------
+14>  DenaliCommandParser -> C:\TFS\Denali\Code\Dev\Build\Debug\DenaliCommandParser.dll
+15>------ Build started: Project: NETDLL, Configuration: Debug x86 ------
+15>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+15>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.Controllers, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+15>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+15>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(29,9): error BC40056: Namespace or type specified in the Imports 'CrystalDecisions.ReportAppServer.ReportDefModel' doesn't contain any public member or cannot be found. Make sure the namespace or the type is defined and contains at least one public member. Make sure the imported element name doesn't use any aliases.
+15>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(390,23): error BC30002: Type 'ReportAppServer.Controllers.PrintReportOptions' is not defined.
+15>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(393,9): error BC30652: Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.
+15>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(483,25): error BC30002: Type 'ReportAppServer.Controllers.PrintReportOptions' is not defined.
+15>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(488,60): error BC30002: Type 'CrPrinterDuplexEnum' is not defined.
+15>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(489,88): error BC30002: Type 'CrPaperSourceEnum' is not defined.
+15>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(492,84): error BC30002: Type 'CrPaperSizeEnum' is not defined.
+15>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(493,88): error BC30002: Type 'CrPaperSourceEnum' is not defined.
+15>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(499,9): error BC30652: Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.
+16>------ Build started: Project: CMCommon, Configuration: Debug x86 ------
+16>CSC : error CS0006: Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\NETDLL.dll' could not be found
+17>------ Build started: Project: CMSAPForms, Configuration: Debug x86 ------
+18>------ Build started: Project: CMSBudgetLibrary, Configuration: Debug x86 ------
+19>------ Build started: Project: CMSSAForms, Configuration: Debug x86 ------
+20>------ Build started: Project: CMSARForms, Configuration: Debug x86 ------
+20>CSC : error CS0006: Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll' could not be found
+19>CSC : error CS0006: Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll' could not be found
+21>------ Build started: Project: CMSGLForms, Configuration: Debug x86 ------
+21>CSC : error CS0006: Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll' could not be found
+17>CSC : error CS0006: Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll' could not be found
+18>CSC : error CS0006: Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll' could not be found
+22>------ Build started: Project: CMSDotNet, Configuration: Debug Win32 ------
+22>stdafx.cpp
+22>C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSDotNet\stdafx.cpp : fatal error C1192: #using failed on 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll'
+22>        'The system cannot find the file specified.'
 22>Done building project "CMSDotNet.vcxproj" -- FAILED.
-23>------ Build started: Project: cmsdll, Configuration: Debug x64 ------
-23>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+23>------ Build started: Project: cmsdll, Configuration: Debug Win32 ------
+23>StdAfx.cpp
+23>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
 23>Done building project "cmsdll.vcxproj" -- FAILED.
-24>------ Build started: Project: GBLForms, Configuration: Debug x64 ------
-24>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+24>------ Build started: Project: GBLForms, Configuration: Debug Win32 ------
+24>StdAfx.cpp
+24>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
 24>Done building project "GBLForms.vcxproj" -- FAILED.
-25>------ Build started: Project: GLForms, Configuration: Debug x64 ------
-26>------ Build started: Project: cmshwwiz, Configuration: Debug x64 ------
-27>------ Build started: Project: POForms, Configuration: Debug x64 ------
-25>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
-25>Done building project "GLForms.vcxproj" -- FAILED.
-27>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+25>------ Build started: Project: GLForms, Configuration: Debug Win32 ------
+26>------ Build started: Project: cmshwwiz, Configuration: Debug Win32 ------
+27>------ Build started: Project: POForms, Configuration: Debug Win32 ------
+26>stdafx.cpp
+26>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+25>StdAfx.cpp
+27>stdafx.cpp
+27>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
 27>Done building project "POForms.vcxproj" -- FAILED.
-28>------ Build started: Project: BRForms, Configuration: Debug x64 ------
-29>------ Build started: Project: INForms, Configuration: Debug x64 ------
-26>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
 26>Done building project "cmshwwiz.vcxproj" -- FAILED.
-28>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+25>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+25>Done building project "GLForms.vcxproj" -- FAILED.
+28>------ Build started: Project: BRForms, Configuration: Debug Win32 ------
+29>------ Build started: Project: INForms, Configuration: Debug Win32 ------
+29>stdafx.cpp
+29>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+28>stdafx.cpp
+28>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
 28>Done building project "BRForms.vcxproj" -- FAILED.
-29>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
 29>Done building project "INForms.vcxproj" -- FAILED.
-30>------ Build started: Project: APForms, Configuration: Debug x64 ------
-30>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+30>------ Build started: Project: APForms, Configuration: Debug Win32 ------
+30>stdafx.cpp
+30>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
 30>Done building project "APForms.vcxproj" -- FAILED.
-31>------ Build started: Project: CTForms, Configuration: Debug x64 ------
-31>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+31>------ Build started: Project: CTForms, Configuration: Debug Win32 ------
+31>stdafx.cpp
+31>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
 31>Done building project "CTForms.vcxproj" -- FAILED.
-32>------ Build started: Project: ARForms, Configuration: Debug x64 ------
-32>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+32>------ Build started: Project: ARForms, Configuration: Debug Win32 ------
+32>stdafx.cpp
+32>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
 32>Done building project "ARForms.vcxproj" -- FAILED.
-33>------ Build started: Project: saforms, Configuration: Debug x64 ------
-33>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+33>------ Build started: Project: saforms, Configuration: Debug Win32 ------
+33>StdAfx.cpp
+33>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
 33>Done building project "saforms.vcxproj" -- FAILED.
-34>------ Build started: Project: CMSCT, Configuration: Debug x64 ------
-34>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(427,5): error MSB8070: Cannot find MSVC toolset version '14.29.30133': the folder 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\' does not exist. Please make sure MSVC toolset version '14.29.30133' is  installed or choose another toolset version.
+34>------ Build started: Project: CMSCT, Configuration: Debug Win32 ------
+34>stdafx.cpp
+34>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
 34>Done building project "CMSCT.vcxproj" -- FAILED.
-========== Build: 19 succeeded, 15 failed, 0 up-to-date, 0 skipped ==========
+========== Build: 12 succeeded, 22 failed, 0 up-to-date, 0 skipped ==========
