@@ -1,67 +1,10 @@
 Severity	Code	Description	Project	File	Line	Suppression State
-Error	BC30652	Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	393	Active
+Error	BC30652	Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	499	Active
 Error	BC40056	Namespace or type specified in the Imports 'CrystalDecisions.ReportAppServer.ReportDefModel' doesn't contain any public member or cannot be found. Make sure the namespace or the type is defined and contains at least one public member. Make sure the imported element name doesn't use any aliases.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	29	Active
 Error	BC30002	Type 'ReportAppServer.Controllers.PrintReportOptions' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	390	Active
+Error	BC30652	Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	393	Active
 Error	BC30002	Type 'ReportAppServer.Controllers.PrintReportOptions' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	483	Active
 Error	BC30002	Type 'CrPrinterDuplexEnum' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	488	Active
 Error	BC30002	Type 'CrPaperSourceEnum' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	489	Active
 Error	BC30002	Type 'CrPaperSizeEnum' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	492	Active
 Error	BC30002	Type 'CrPaperSourceEnum' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	493	Active
-Error	BC30652	Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	499	Active
-Error	CS0006	Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\NETDLL.dll' could not be found	CMCommon	C:\TFS\Denali\Code\Dev\_VCSDENALICLIENT\CMCOMMON\CSC	1	Active
-Error	CS0006	Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll' could not be found	CMSAPForms	C:\TFS\Denali\Code\Dev\_VCSDENALICLIENT\CMSAPForms\CSC	1	Active
-Error	CS0006	Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll' could not be found	CMSARForms	C:\TFS\Denali\Code\Dev\_VCSDENALICLIENT\CMSARForms\CSC	1	Active
-Error	CS0006	Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll' could not be found	CMSBudgetLibrary	C:\TFS\Denali\Code\Dev\FundBudgetWithTelerik\CMSBudgetLibrary\CSC	1	Active
-Error	CS0006	Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll' could not be found	CMSGLForms	C:\TFS\Denali\Code\Dev\_VCSDENALICLIENT\CMSGLForms\CSC	1	Active
-Error	CS0006	Metadata file 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll' could not be found	CMSSAForms	C:\TFS\Denali\Code\Dev\_VCSDENALICLIENT\CMSSAForms\CSC	1	Active
-Warning		Could not copy "C:\TFS\Denali\Code\Dev\packages\Newtonsoft.Json.13.0.4\lib\net45\Newtonsoft.Json.xml" to "..\..\Build\Debug\Newtonsoft.Json.xml". Beginning retry 1 in 1000ms. The process cannot access the file '..\..\Build\Debug\Newtonsoft.Json.xml' because it is being used by another process.	DenaliBIProcessing			
-Warning		The referenced component 'Microsoft.Web.WebView2.Core' could not be found.	NETDLL			
-Warning		The referenced component 'System.Drawing' could not be found.	NETDLL			
-Warning		The referenced component 'System.Core' could not be found.	NETDLL			
-Warning		The referenced component 'System.Web.Services' could not be found.	NETDLL			
-Warning		The referenced component 'CrystalDecisions.ReportAppServer.ClientDoc' could not be found.	NETDLL			
-Warning		The referenced component 'Newtonsoft.Json' could not be found.	NETDLL			
-Warning		The referenced component 'Microsoft.Web.WebView2.WinForms' could not be found.	NETDLL			
-Warning		The referenced component 'System.Windows.Forms' could not be found.	NETDLL			
-Warning		The referenced component 'System.Xml' could not be found.	NETDLL			
-Warning		Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.Controllers, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.	NETDLL			
-Warning		The referenced component 'System.ServiceModel' could not be found.	NETDLL			
-Warning		Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.	NETDLL			
-Warning		The referenced component 'System.Net.Http' could not be found.	NETDLL			
-Warning		Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.	NETDLL			
-Warning		The referenced component 'System.IO.Compression.FileSystem' could not be found.	NETDLL			
-Warning		The referenced component 'System.IO.Abstractions' could not be found.	NETDLL			
-Warning		The referenced component 'CrystalDecisions.ReportAppServer.Controllers' could not be found.	NETDLL			
-Warning		The referenced component 'System' could not be found.	NETDLL			
-Warning		The referenced component 'Microsoft.Web.WebView2.Wpf' could not be found.	NETDLL			
-Warning		The referenced component 'System.Runtime.Serialization' could not be found.	NETDLL			
-Warning		The referenced component 'System.IO.Abstractions.TestingHelpers' could not be found.	NETDLL			
-Warning		The referenced component 'Testably.Abstractions.FileSystem.Interface' could not be found.	NETDLL			
-Warning		The referenced component 'COMAdmin' could not be found.	NETDLL			
-Warning		The referenced component 'CrystalDecisions.ReportSource' could not be found.	NETDLL			
-Warning		The referenced component 'System.Xml.Linq' could not be found.	NETDLL			
-Warning		The referenced component 'CrystalDecisions.Windows.Forms' could not be found.	NETDLL			
-Warning		The referenced component 'System.ServiceProcess' could not be found.	NETDLL			
-Warning		The referenced component 'System.IO.Abstractions.Extensions' could not be found.	NETDLL			
-Warning		The referenced component 'CrystalDecisions.ReportAppServer.ReportDefModel' could not be found.	NETDLL			
-Warning		The referenced component 'CrystalDecisions.Shared' could not be found.	NETDLL			
-Warning		The referenced component 'TestableIO.System.IO.Abstractions' could not be found.	NETDLL			
-Warning		The referenced component 'System.Data' could not be found.	NETDLL			
-Warning		The referenced component 'CrystalDecisions.CrystalReports.Engine' could not be found.	NETDLL			
-Warning		The referenced component 'TestableIO.System.IO.Abstractions.Wrappers' could not be found.	NETDLL			
-Warning		The referenced component 'TestableIO.System.IO.Abstractions.TestingHelpers' could not be found.	NETDLL			
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	DundasStatic	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'windows.h': No such file or directory	CMSLANG409	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSLANG409\stdafx.h	29	
-Error	C1192	#using failed on 'C:\TFS\Denali\Code\Dev\Build\Debug\CMCommon.dll'	CMSDotNet	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSDotNet\stdafx.cpp	1	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	cmsdll	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	GBLForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	cmshwwiz	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	POForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	GLForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	INForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	BRForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	APForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	CTForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	ARForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	saforms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
-Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSCT	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
