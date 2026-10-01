@@ -2,290 +2,100 @@ Rebuild started...
 1>------ Rebuild All started: Project: DenaliDictionaryPt3, Configuration: Debug x64 ------
 2>------ Rebuild All started: Project: CMSUtil, Configuration: Debug x64 ------
 3>------ Rebuild All started: Project: CMSDenaliCommon, Configuration: Debug x64 ------
-4>------ Rebuild All started: Project: CMGraphics, Configuration: Debug x64 ------
+4>------ Rebuild All started: Project: DenaliBIProcessing, Configuration: Debug x64 ------
 3>  CMSDenaliCommon -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDenaliCommon.dll
-5>------ Rebuild All started: Project: DenaliBIProcessing, Configuration: Debug x64 ------
+5>------ Rebuild All started: Project: CMGraphics, Configuration: Debug x64 ------
 2>  CMSUtil -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSUtil.dll
-5>  DenaliBIProcessing -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliBIProcessing.dll
-6>------ Rebuild All started: Project: ShrNet, Configuration: Debug x64 ------
-7>------ Rebuild All started: Project: DundasStatic, Configuration: Debug x64 ------
-6>  ShrNet -> C:\TFS\Denali\Code\Dev\Build\Debugx64\ShrNet.dll
-8>------ Rebuild All started: Project: UnitTestSupport, Configuration: Debug x64 ------
 1>  DenaliDictionaryPt3 -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDictionary3.dll
-9>------ Rebuild All started: Project: DenaliServerGlobals, Configuration: Debug x64 ------
-7>stdafx.cpp
-7>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-8>  UnitTestSupport -> C:\TFS\Denali\Code\Dev\Build\Debugx64\UnitTestSupport.dll
-10>------ Rebuild All started: Project: CMSCustomers, Configuration: Debug x64 ------
-7>Done building project "DundasStatic.vcxproj" -- FAILED.
+5>  CMGraphics -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMGraphics.dll
+6>------ Rebuild All started: Project: ShrNet, Configuration: Debug x64 ------
+4>  DenaliBIProcessing -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliBIProcessing.dll
+7>------ Rebuild All started: Project: DenaliServerGlobals, Configuration: Debug x64 ------
+8>------ Rebuild All started: Project: CMRESX, Configuration: Debug x64 ------
+9>------ Rebuild All started: Project: CMSDenaliUIControls, Configuration: Debug x64 ------
+6>  ShrNet -> C:\TFS\Denali\Code\Dev\Build\Debugx64\ShrNet.dll
+10>------ Rebuild All started: Project: DundasStatic, Configuration: Debug x64 ------
+10>stdafx.cpp
+10>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+10>Done building project "DundasStatic.vcxproj" -- FAILED.
 11>------ Rebuild All started: Project: CMSLANG409, Configuration: Debug x64 ------
-4>  CMGraphics -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMGraphics.dll
-12>------ Rebuild All started: Project: CMRESX, Configuration: Debug x64 ------
-10>  CMSCustomers -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSCustomers.dll
-13>------ Rebuild All started: Project: CMSDenaliUIControls, Configuration: Debug x64 ------
+9>  CMSDenaliUIControls -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDenaliUIControls.dll
 11>StdAfx.cpp
 11>C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSLANG409\stdafx.h(29,10): fatal error C1083: Cannot open include file: 'windows.h': No such file or directory
 11>Done building project "CMSLANG409.vcxproj" -- FAILED.
-14>------ Rebuild All started: Project: DenaliBISetupService, Configuration: Debug x64 ------
-14>  DenaliBISetupService -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliBISetupService.exe
-15>------ Rebuild All started: Project: INHUtil, Configuration: Debug x64 ------
-15>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
-15>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.Controllers, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
-15>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
-15>  INHUtil -> C:\TFS\Denali\Code\Dev\Build\Debugx64\INHUtil.exe
-16>------ Rebuild All started: Project: Logger, Configuration: Debug x64 ------
-12>  CMRESX -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMRESX.dll
-17>------ Rebuild All started: Project: Monitor, Configuration: Debug x64 ------
-16>  Logger -> C:\TFS\Denali\Code\Dev\Build\Debugx64\Logger.exe
-17>  Monitor -> C:\TFS\Denali\Code\Dev\Build\Debugx64\Monitor.exe
-18>------ Rebuild All started: Project: TestClient, Configuration: Debug x64 ------
-19>------ Rebuild All started: Project: CMSLicenseService, Configuration: Debug x64 ------
-13>  CMSDenaliUIControls -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDenaliUIControls.dll
-20>------ Rebuild All started: Project: NetDat, Configuration: Debug x64 ------
-19>  CMSLicenseService -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSLicenseService.exe
-18>  TestClient -> C:\TFS\Denali\Code\Dev\Build\Debugx64\TestClient.exe
-21>------ Rebuild All started: Project: HelpManager, Configuration: Debug x64 ------
-22>------ Rebuild All started: Project: CMSUIInterface, Configuration: Debug x64 ------
-20>  NetDat -> C:\TFS\Denali\Code\Dev\Build\Debugx64\NetDat.dll
-23>------ Rebuild All started: Project: DenaliBITestClient, Configuration: Debug x64 ------
-21>  HelpManager -> C:\TFS\Denali\Code\Dev\Build\Debugx64\HelpManager.exe
-23>  DenaliBITestClient -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliBITestClient.exe
-9>  DenaliServerGlobals -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSServerGlobals.dll
-22>  CMSUIInterface -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSUIInterface.exe
-24>------ Rebuild All started: Project: DenaliDictionaryPt2, Configuration: Debug x64 ------
-24>  DenaliDictionaryPt2 -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDictionary2.dll
-25>------ Rebuild All started: Project: DenaliDictionaryPt1, Configuration: Debug x64 ------
-25>  DenaliDictionaryPt1 -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDictionary.dll
-26>------ Rebuild All started: Project: DenaliCommandParser, Configuration: Debug x64 ------
-26>  DenaliCommandParser -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.dll
-27>------ Rebuild All started: Project: NETDLL, Configuration: Debug x64 ------
-28>------ Rebuild All started: Project: DenaliCommandParser.TestData, Configuration: Debug x64 ------
-29>------ Rebuild All started: Project: DenaliXmlTester, Configuration: Debug x64 ------
-30>------ Rebuild All started: Project: TestTableDataGenerator, Configuration: Debug x64 ------
-27>  NETDLL -> C:\TFS\Denali\Code\Dev\Build\Debugx64\NETDLL.dll
-27>  Assembly exported to 'C:\TFS\Denali\Code\Dev\Build\Debugx64\NETDLL.tlb'
-31>------ Rebuild All started: Project: CMCommon, Configuration: Debug x64 ------
-30>  TestTableDataGenerator -> C:\TFS\Denali\Code\Dev\Denali Developer Tools\TestTableDataGenerator\TestTableDataGenerator\bin\x64\Debug\TestTableDataGenerator.exe
-29>  DenaliXmlTester -> C:\TFS\Denali\Code\Dev\Build\Debugx64\XMLTester.exe
-32>------ Rebuild All started: Project: CMSUIDatabase, Configuration: Debug x64 ------
-33>------ Rebuild All started: Project: CMS.Denali.CrystalReportTester, Configuration: Debug x64 ------
-32>  CMSUIDatabase -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSUIDatabase.exe
-34>------ Rebuild All started: Project: WindowsApplication1, Configuration: Debug x64 ------
-34>  WindowsApplication1 -> C:\TFS\Denali\Code\Dev\Build\Debugx64\WindowsApplication1.exe
-35>------ Rebuild All started: Project: CMSDenaliRA, Configuration: Debug x64 ------
-33>  CMS.Denali.CrystalReportTester -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CrystalReportTester.exe
-36>------ Rebuild All started: Project: CMSTransport, Configuration: Debug x64 ------
-36>  CMSTransport -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSTransport.exe
-35>  CMSDenaliRA -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDenaliRA.exe
-37>------ Rebuild All started: Project: VirtualUILicenseMaker, Configuration: Debug x64 ------
-37>  VirtualUILicenseMaker -> C:\TFS\Denali\Code\Dev\VirtualUILicenseMaker\bin\x64\Debug\VirtualUILicenseMaker.exe
-31>  CMCommon -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMCommon.dll
-38>------ Rebuild All started: Project: CMSSAForms, Configuration: Debug x64 ------
-39>------ Rebuild All started: Project: CMSGLForms, Configuration: Debug x64 ------
-40>------ Rebuild All started: Project: CMSBudgetLibrary, Configuration: Debug x64 ------
-28>  DenaliCommandParser.TestData -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.TestData.dll
-40>  CMSBudgetLibrary -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSBudgetLibrary.dll
-41>------ Rebuild All started: Project: CMSAPForms, Configuration: Debug x64 ------
-42>------ Rebuild All started: Project: CMSARForms, Configuration: Debug x64 ------
-42>  CMSARForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSARForms.dll
-43>------ Rebuild All started: Project: NETDLL.Test, Configuration: Debug x64 ------
-39>  CMSGLForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSGLForms.dll
-38>  CMSSAForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSSAForms.dll
-44>------ Rebuild All started: Project: CMSINForms, Configuration: Debug x64 ------
-45>------ Rebuild All started: Project: CMSPOForms, Configuration: Debug x64 ------
-45>  CMSPOForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSPOForms.dll
-46>------ Rebuild All started: Project: SharedUtil, Configuration: Debug x64 ------
-44>  CMSINForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSINForms.dll
-47>------ Rebuild All started: Project: DenaliCommandParser.SAXMLDAT.Test, Configuration: Debug x64 ------
-43>  NETDLL.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\NETDLL.Test.dll
-48>------ Rebuild All started: Project: CMCommon.Test, Configuration: Debug x64 ------
-41>  CMSAPForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSAPForms.dll
-49>------ Rebuild All started: Project: CMSDotNet, Configuration: Debug x64 ------
-46>  SharedUtil -> C:\TFS\Denali\Code\Dev\Build\Debugx64\SharedUtil.dll
-50>------ Rebuild All started: Project: CMSBRForms, Configuration: Debug x64 ------
-50>  CMSBRForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSBRForms.dll
-51>------ Rebuild All started: Project: CMSJCForms, Configuration: Debug x64 ------
-48>  CMCommon.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMCommon.Test.dll
-52>------ Rebuild All started: Project: DenaliCommandParser.POXMLDAT.Test, Configuration: Debug x64 ------
-49>stdafx.cpp
-49>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-49>Done building project "CMSDotNet.vcxproj" -- FAILED.
-53>------ Rebuild All started: Project: cmsdll, Configuration: Debug x64 ------
-53>StdAfx.cpp
-53>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-53>Done building project "cmsdll.vcxproj" -- FAILED.
-54>------ Rebuild All started: Project: GBLForms, Configuration: Debug x64 ------
-54>StdAfx.cpp
-54>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-54>Done building project "GBLForms.vcxproj" -- FAILED.
-55>------ Rebuild All started: Project: GLForms, Configuration: Debug x64 ------
-55>StdAfx.cpp
-55>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-55>Done building project "GLForms.vcxproj" -- FAILED.
-56>------ Rebuild All started: Project: INForms, Configuration: Debug x64 ------
-56>stdafx.cpp
-56>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-56>Done building project "INForms.vcxproj" -- FAILED.
-57>------ Rebuild All started: Project: BRForms, Configuration: Debug x64 ------
-57>stdafx.cpp
-57>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-57>Done building project "BRForms.vcxproj" -- FAILED.
-58>------ Rebuild All started: Project: APForms, Configuration: Debug x64 ------
-58>stdafx.cpp
-58>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-58>Done building project "APForms.vcxproj" -- FAILED.
-59>------ Rebuild All started: Project: cmshwwiz, Configuration: Debug x64 ------
-59>stdafx.cpp
-59>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-59>Done building project "cmshwwiz.vcxproj" -- FAILED.
-60>------ Rebuild All started: Project: CTForms, Configuration: Debug x64 ------
-60>stdafx.cpp
-60>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-60>Done building project "CTForms.vcxproj" -- FAILED.
-61>------ Rebuild All started: Project: ARForms, Configuration: Debug x64 ------
-61>stdafx.cpp
-61>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-61>Done building project "ARForms.vcxproj" -- FAILED.
-62>------ Rebuild All started: Project: POForms, Configuration: Debug x64 ------
-62>stdafx.cpp
-62>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-62>Done building project "POForms.vcxproj" -- FAILED.
-63>------ Rebuild All started: Project: saforms, Configuration: Debug x64 ------
-63>StdAfx.cpp
-47>  DenaliCommandParser.SAXMLDAT.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.SAXMLDAT.Test.dll
-63>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-52>  DenaliCommandParser.POXMLDAT.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.POXMLDAT.Test.dll
-51>  CMSJCForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSJCForms.dll
-63>Done building project "saforms.vcxproj" -- FAILED.
-64>------ Rebuild All started: Project: POEForms, Configuration: Debug x64 ------
-65>------ Rebuild All started: Project: CMSPRForms, Configuration: Debug x64 ------
-66>------ Rebuild All started: Project: SEForms, Configuration: Debug x64 ------
-67>------ Rebuild All started: Project: DenaliCommandParser.APXMLDAT.Test, Configuration: Debug x64 ------
-64>stdafx.cpp
-64>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-64>Done building project "POEForms.vcxproj" -- FAILED.
-68>------ Rebuild All started: Project: CMSDenaliAPI, Configuration: Debug x64 ------
-66>stdafx.cpp
-66>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-66>Done building project "SEForms.vcxproj" -- FAILED.
-69>------ Rebuild All started: Project: CMSSales, Configuration: Debug x64 ------
-69>stdafx.cpp
-69>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-68>  CMSDenaliAPI -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDenaliAPI.dll
-69>Done building project "CMSSales.vcxproj" -- FAILED.
-70>------ Rebuild All started: Project: CMSPOEntry, Configuration: Debug x64 ------
-71>------ Rebuild All started: Project: DenaliCommandParser.PRXMLDAT.Test, Configuration: Debug x64 ------
-70>stdafx.cpp
-70>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-70>Done building project "CMSPOEntry.vcxproj" -- FAILED.
-72>------ Rebuild All started: Project: CMSAR, Configuration: Debug x64 ------
-67>  DenaliCommandParser.APXMLDAT.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.APXMLDAT.Test.dll
-73>------ Rebuild All started: Project: CMSCT, Configuration: Debug x64 ------
-72>stdafx.cpp
-72>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-72>Done building project "CMSAR.vcxproj" -- FAILED.
-74>------ Rebuild All started: Project: CMSGL, Configuration: Debug x64 ------
-65>  CMSPRForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSPRForms.dll
-75>------ Rebuild All started: Project: CMSIN, Configuration: Debug x64 ------
-73>stdafx.cpp
-73>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-73>Done building project "CMSCT.vcxproj" -- FAILED.
-74>StdAfx.cpp
-74>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-74>Done building project "CMSGL.vcxproj" -- FAILED.
-76>------ Rebuild All started: Project: CMSMA, Configuration: Debug x64 ------
-77>------ Rebuild All started: Project: CMSPO, Configuration: Debug x64 ------
-76>Making help include file...
-77>stdafx.cpp
-77>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-77>Done building project "CMSPO.vcxproj" -- FAILED.
-75>stdafx.cpp
-78>------ Rebuild All started: Project: CreateDB, Configuration: Debug x64 ------
-75>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-75>Done building project "CMSIN.vcxproj" -- FAILED.
-79>------ Rebuild All started: Project: CMSBR, Configuration: Debug x64 ------
-78>stdafx.cpp
-78>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-78>Done building project "CreateDB.vcxproj" -- FAILED.
-80>------ Rebuild All started: Project: SQLToSQL, Configuration: Debug x64 ------
-79>stdafx.cpp
-79>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-79>Done building project "CMSBR.vcxproj" -- FAILED.
-81>------ Rebuild All started: Project: CMSDenaliCommon.Test, Configuration: Debug x64 ------
-76>StdAfx.cpp
-76>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-81>  CMSDenaliCommon.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDenaliCommon.Test.dll
-80>stdafx.cpp
-80>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-76>Done building project "CMSMA.vcxproj" -- FAILED.
-80>Done building project "SQLToSQL.vcxproj" -- FAILED.
-82>------ Rebuild All started: Project: CMSCopyOrganizationUtility, Configuration: Debug x64 ------
-83>------ Rebuild All started: Project: NetReg, Configuration: Debug x64 ------
-84>------ Rebuild All started: Project: DenaliCommandParser.Test, Configuration: Debug x64 ------
-71>  DenaliCommandParser.PRXMLDAT.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.PRXMLDAT.Test.dll
-85>------ Rebuild All started: Project: DenaliServerGlobals.Test, Configuration: Debug x64 ------
-82>stdafx.cpp
-82>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-82>Done building project "CMSCopyOrganizationUtility.vcxproj" -- FAILED.
-86>------ Rebuild All started: Project: CMSPRForms.Test, Configuration: Debug x64 ------
-83>  NetReg -> C:\TFS\Denali\Code\Dev\Build\Debugx64\NetReg.exe
-85>  DenaliServerGlobals.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSServerGlobals.Test.dll
-87>------ Rebuild All started: Project: InstallPrimaryDB, Configuration: Debug x64 ------
-88>------ Rebuild All started: Project: CMSJC, Configuration: Debug x64 ------
-87>stdafx.cpp
-87>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-87>Done building project "InstallPrimaryDB.vcxproj" -- FAILED.
-89>------ Rebuild All started: Project: ServerUtil, Configuration: Debug x64 ------
-84>  DenaliCommandParser.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.Test.dll
-90>------ Rebuild All started: Project: DenaliCommandParser.GLXMLDAT.Test, Configuration: Debug x64 ------
-89>  ServerUtil -> C:\TFS\Denali\Code\Dev\Build\Debugx64\ServerUtil.exe
-91>------ Rebuild All started: Project: DenaliCommandParser.JCXMLDAT.Test, Configuration: Debug x64 ------
-86>  CMSPRForms.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSPRForms.Test.dll
-92>------ Rebuild All started: Project: DenaliCommandParser.PRXMLDAT.Posting.Act.Test, Configuration: Debug x64 ------
-90>  DenaliCommandParser.GLXMLDAT.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.GLXMLDAT.Test.dll
-93>------ Rebuild All started: Project: DenaliCommandParser.PRXMLDAT.Posting.Fund.Test, Configuration: Debug x64 ------
-93>  DenaliCommandParser.PRXMLDAT.Posting.Fund.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.PRXMLDAT.Posting.Fund.Test.dll
-94>------ Rebuild All started: Project: DenaliCommandParser.ARXMLDAT.Test, Configuration: Debug x64 ------
-92>  DenaliCommandParser.PRXMLDAT.Posting.Act.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.PRXMLDAT.Posting.Act.Test.dll
-95>------ Rebuild All started: Project: LicSvrUtil, Configuration: Debug x64 ------
-91>  DenaliCommandParser.JCXMLDAT.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.JCXMLDAT.Test.dll
-96>------ Rebuild All started: Project: ClientUtil, Configuration: Debug x64 ------
-95>  LicSvrUtil -> C:\TFS\Denali\Code\Dev\Build\Debugx64\LicSvrUtil.exe
-97>------ Rebuild All started: Project: AdminUtil, Configuration: Debug x64 ------
-96>  ClientUtil -> C:\TFS\Denali\Code\Dev\Build\Debugx64\ClientUtil.exe
-98>------ Rebuild All started: Project: DenaliCommandParser.POXMLDAT.Posting.Act.Test, Configuration: Debug x64 ------
-97>  AdminUtil -> C:\TFS\Denali\Code\Dev\Build\Debugx64\AdminUtil.exe
-99>------ Rebuild All started: Project: DenaliCommandParser.POXMLDAT.Posting.Fund.Test, Configuration: Debug x64 ------
-98>  DenaliCommandParser.POXMLDAT.Posting.Act.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.POXMLDAT.Posting.Act.Test.dll
-100>------ Rebuild All started: Project: DenaliCommandParser.SAXMLDAT.Posting.Act.Test, Configuration: Debug x64 ------
-94>  DenaliCommandParser.ARXMLDAT.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.ARXMLDAT.Test.dll
-101>------ Rebuild All started: Project: DenaliCommandParser.SAXMLDAT.Posting.Fund.Test, Configuration: Debug x64 ------
-100>  DenaliCommandParser.SAXMLDAT.Posting.Act.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.SAXMLDAT.Posting.Act.Test.dll
-102>------ Rebuild All started: Project: CMSDenaliAPI.Test, Configuration: Debug x64 ------
-99>  DenaliCommandParser.POXMLDAT.Posting.Fund.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.POXMLDAT.Posting.Fund.Test.dll
-103>------ Rebuild All started: Project: CMCommon.Tests, Configuration: Debug x64 ------
-88>  CMSJC -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSJC.exe
-104>------ Rebuild All started: Project: CMSPR, Configuration: Debug x64 ------
-102>  CMSDenaliAPI.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDenaliAPI.Test.dll
-105>------ Rebuild All started: Project: CMSAP, Configuration: Debug x64 ------
-103>  CMCommon.Tests -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMCommon.Tests.dll
-104>  CMSPR -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSPR.exe
-106>------ Rebuild All started: Project: PayrollWeb, Configuration: Debug x64 ------
-107>------ Rebuild All started: Project: GeneralLedgerWeb, Configuration: Debug x64 ------
-105>stdafx.cpp
-105>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
-105>Done building project "CMSAP.vcxproj" -- FAILED.
-101>  DenaliCommandParser.SAXMLDAT.Posting.Fund.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.SAXMLDAT.Posting.Fund.Test.dll
-108>------ Rebuild All started: Project: CMSAPForms.Test, Configuration: Debug x64 ------
-109>------ Rebuild All started: Project: DenaliCommandParser.GLXMLDAT.Reports.Test, Configuration: Debug x64 ------
-108>  CMSAPForms.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSAPForms.Test.dll
-106>  Consider app.config remapping of assembly "Testably.Abstractions.FileSystem.Interface, Culture=neutral, PublicKeyToken=f24346c8579fcb48" from Version "10.1.0.0" [] to Version "10.2.0.0" [C:\TFS\Denali\Code\Dev\Build\Debugx64\Testably.Abstractions.FileSystem.Interface.dll] to solve conflict and get rid of warning.
-106>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly. In Visual Studio, double-click this warning (or select it and press Enter) to fix the conflicts; otherwise, add the following binding redirects to the "runtime" node in the application configuration file: <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"><dependentAssembly><assemblyIdentity name="Testably.Abstractions.FileSystem.Interface" culture="neutral" publicKeyToken="f24346c8579fcb48" /><bindingRedirect oldVersion="0.0.0.0-10.2.0.0" newVersion="10.2.0.0" /></dependentAssembly></assemblyBinding>
-107>  Consider app.config remapping of assembly "Testably.Abstractions.FileSystem.Interface, Culture=neutral, PublicKeyToken=f24346c8579fcb48" from Version "10.1.0.0" [] to Version "10.2.0.0" [C:\TFS\Denali\Code\Dev\Build\Debugx64\Testably.Abstractions.FileSystem.Interface.dll] to solve conflict and get rid of warning.
-107>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3247: Found conflicts between different versions of the same dependent assembly. In Visual Studio, double-click this warning (or select it and press Enter) to fix the conflicts; otherwise, add the following binding redirects to the "runtime" node in the application configuration file: <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1"><dependentAssembly><assemblyIdentity name="Testably.Abstractions.FileSystem.Interface" culture="neutral" publicKeyToken="f24346c8579fcb48" /><bindingRedirect oldVersion="0.0.0.0-10.2.0.0" newVersion="10.2.0.0" /></dependentAssembly></assemblyBinding>
-110>------ Rebuild All started: Project: CMSUtil.Test, Configuration: Debug x64 ------
-109>  DenaliCommandParser.GLXMLDAT.Reports.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.GLXMLDAT.Reports.Test.dll
-110>  CMSUtil.Test -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSUtil.Test.dll
-106>  PayrollWeb -> C:\TFS\Denali\Code\Dev\Web\PayrollWeb\bin\PayrollWeb.dll
-107>  GeneralLedgerWeb -> C:\TFS\Denali\Code\Dev\Web\GeneralLedgerWeb\bin\GeneralLedgerWeb.dll
-========== Rebuild All: 80 succeeded, 30 failed, 0 skipped ==========
+8>  CMRESX -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMRESX.dll
+7>  DenaliServerGlobals -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSServerGlobals.dll
+12>------ Rebuild All started: Project: DenaliDictionaryPt2, Configuration: Debug x64 ------
+12>  DenaliDictionaryPt2 -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDictionary2.dll
+13>------ Rebuild All started: Project: DenaliDictionaryPt1, Configuration: Debug x64 ------
+13>  DenaliDictionaryPt1 -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDictionary.dll
+14>------ Rebuild All started: Project: DenaliCommandParser, Configuration: Debug x64 ------
+14>  DenaliCommandParser -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.dll
+15>------ Rebuild All started: Project: NETDLL, Configuration: Debug x64 ------
+15>  NETDLL -> C:\TFS\Denali\Code\Dev\Build\Debugx64\NETDLL.dll
+15>  Assembly exported to 'C:\TFS\Denali\Code\Dev\Build\Debugx64\NETDLL.tlb'
+16>------ Rebuild All started: Project: CMCommon, Configuration: Debug x64 ------
+16>  CMCommon -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMCommon.dll
+17>------ Rebuild All started: Project: CMSAPForms, Configuration: Debug x64 ------
+18>------ Rebuild All started: Project: CMSBudgetLibrary, Configuration: Debug x64 ------
+19>------ Rebuild All started: Project: CMSSAForms, Configuration: Debug x64 ------
+20>------ Rebuild All started: Project: CMSARForms, Configuration: Debug x64 ------
+20>  CMSARForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSARForms.dll
+21>------ Rebuild All started: Project: CMSGLForms, Configuration: Debug x64 ------
+21>  CMSGLForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSGLForms.dll
+19>  CMSSAForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSSAForms.dll
+18>  CMSBudgetLibrary -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSBudgetLibrary.dll
+17>  CMSAPForms -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSAPForms.dll
+22>------ Rebuild All started: Project: CMSDotNet, Configuration: Debug x64 ------
+22>stdafx.cpp
+22>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+22>Done building project "CMSDotNet.vcxproj" -- FAILED.
+23>------ Rebuild All started: Project: cmsdll, Configuration: Debug x64 ------
+23>StdAfx.cpp
+23>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+23>Done building project "cmsdll.vcxproj" -- FAILED.
+24>------ Rebuild All started: Project: GBLForms, Configuration: Debug x64 ------
+24>StdAfx.cpp
+24>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+24>Done building project "GBLForms.vcxproj" -- FAILED.
+25>------ Rebuild All started: Project: GLForms, Configuration: Debug x64 ------
+26>------ Rebuild All started: Project: cmshwwiz, Configuration: Debug x64 ------
+27>------ Rebuild All started: Project: POForms, Configuration: Debug x64 ------
+26>stdafx.cpp
+26>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+27>stdafx.cpp
+27>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+27>Done building project "POForms.vcxproj" -- FAILED.
+26>Done building project "cmshwwiz.vcxproj" -- FAILED.
+25>StdAfx.cpp
+25>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+25>Done building project "GLForms.vcxproj" -- FAILED.
+28>------ Rebuild All started: Project: BRForms, Configuration: Debug x64 ------
+29>------ Rebuild All started: Project: INForms, Configuration: Debug x64 ------
+28>stdafx.cpp
+28>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+28>Done building project "BRForms.vcxproj" -- FAILED.
+29>stdafx.cpp
+29>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+29>Done building project "INForms.vcxproj" -- FAILED.
+30>------ Rebuild All started: Project: APForms, Configuration: Debug x64 ------
+30>stdafx.cpp
+30>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+30>Done building project "APForms.vcxproj" -- FAILED.
+31>------ Rebuild All started: Project: CTForms, Configuration: Debug x64 ------
+31>stdafx.cpp
+31>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+31>Done building project "CTForms.vcxproj" -- FAILED.
+32>------ Rebuild All started: Project: ARForms, Configuration: Debug x64 ------
+32>stdafx.cpp
+32>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+32>Done building project "ARForms.vcxproj" -- FAILED.
+33>------ Rebuild All started: Project: saforms, Configuration: Debug x64 ------
+33>StdAfx.cpp
+33>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+33>Done building project "saforms.vcxproj" -- FAILED.
+34>------ Rebuild All started: Project: CMSCT, Configuration: Debug x64 ------
+34>stdafx.cpp
+34>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h(62,11): fatal error C1083: Cannot open include file: 'new.h': No such file or directory
+34>Done building project "CMSCT.vcxproj" -- FAILED.
+========== Rebuild All: 19 succeeded, 15 failed, 0 skipped ==========
