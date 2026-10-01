@@ -1,10 +1,31 @@
 Severity	Code	Description	Project	File	Line	Suppression State
-Error	BC30652	Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	499	Active
-Error	BC40056	Namespace or type specified in the Imports 'CrystalDecisions.ReportAppServer.ReportDefModel' doesn't contain any public member or cannot be found. Make sure the namespace or the type is defined and contains at least one public member. Make sure the imported element name doesn't use any aliases.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	29	Active
-Error	BC30002	Type 'ReportAppServer.Controllers.PrintReportOptions' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	390	Active
-Error	BC30652	Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	393	Active
-Error	BC30002	Type 'ReportAppServer.Controllers.PrintReportOptions' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	483	Active
-Error	BC30002	Type 'CrPrinterDuplexEnum' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	488	Active
-Error	BC30002	Type 'CrPaperSourceEnum' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	489	Active
-Error	BC30002	Type 'CrPaperSizeEnum' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	492	Active
-Error	BC30002	Type 'CrPaperSourceEnum' is not defined.	NETDLL	C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb	493	Active
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	cmsdll	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	DundasStatic	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'windows.h': No such file or directory	CMSLANG409	C:\TFS\Denali\Code\Dev\_VC7DENALICLIENT\CMSLANG409\stdafx.h	29	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSDotNet	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	GBLForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	GLForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	INForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	BRForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	APForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	cmshwwiz	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CTForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	ARForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	POForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	saforms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	POEForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	SEForms	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSSales	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSPOEntry	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSAR	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSCT	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSGL	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSPO	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSIN	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CreateDB	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSBR	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSMA	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	SQLToSQL	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSCopyOrganizationUtility	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	InstallPrimaryDB	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
+Error	C1083	Cannot open include file: 'new.h': No such file or directory	CMSAP	C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\atlmfc\include\afx.h	62	
