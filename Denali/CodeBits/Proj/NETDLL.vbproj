@@ -1,0 +1,1184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0801AE9B-90B4-41F1-8D52-73E62FA3B4AA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NETDLL</RootNamespace>
+    <AssemblyName>NETDLL</AssemblyName>
+    <MyType>Windows</MyType>
+    <OptionStrict>Off</OptionStrict>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>NETDLL.snk</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Build\Debug\</OutputPath>
+    <DocumentationFile>NETDLL.xml</DocumentationFile>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <NoWarn>42017,42018,42019,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningsAsErrors>41998,41999,42004,42016,42020,42021,42022,42025,42026,42029,42030,42031,42104,42105,42106,42107,42108,42109</WarningsAsErrors>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants>X86=True</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Build\Release\</OutputPath>
+    <DocumentationFile>NETDLL.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <NoWarn>42017,42018,42019,42032,42036</NoWarn>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <WarningsAsErrors>41998,41999,42004,42016,42020,42021,42022,42025,42026,42029,42030,42031,42104,42105,42106,42107,42108,42109</WarningsAsErrors>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants>X86=True</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Build\Debugx64\</OutputPath>
+    <DocumentationFile>NETDLL.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants>X64=True</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Build\Releasex64\</OutputPath>
+    <DocumentationFile>NETDLL.xml</DocumentationFile>
+    <WarningLevel>1</WarningLevel>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <DebugType>None</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants>X64=True</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.3912.50, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Web.WebView2.1.0.3912.50\lib\net462\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.3912.50, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Web.WebView2.1.0.3912.50\lib\net462\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.3912.50, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Web.WebView2.1.0.3912.50\lib\net462\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Abstractions, Version=22.1.1.0, Culture=neutral, PublicKeyToken=96bf224d23c43e59, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.IO.Abstractions.22.1.1\lib\net472\System.IO.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Abstractions.Extensions, Version=22.0.0.0, Culture=neutral, PublicKeyToken=96bf224d23c43e59, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\TestableIO.System.IO.Abstractions.Extensions.22.0.4\lib\net472\System.IO.Abstractions.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Abstractions.TestingHelpers, Version=22.1.1.0, Culture=neutral, PublicKeyToken=96bf224d23c43e59, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.IO.Abstractions.TestingHelpers.22.1.1\lib\net472\System.IO.Abstractions.TestingHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="TestableIO.System.IO.Abstractions, Version=22.1.1.0, Culture=neutral, PublicKeyToken=96bf224d23c43e59, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\TestableIO.System.IO.Abstractions.22.1.1\lib\net472\TestableIO.System.IO.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="TestableIO.System.IO.Abstractions.TestingHelpers, Version=22.1.1.0, Culture=neutral, PublicKeyToken=96bf224d23c43e59, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\TestableIO.System.IO.Abstractions.TestingHelpers.22.1.1\lib\net472\TestableIO.System.IO.Abstractions.TestingHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="TestableIO.System.IO.Abstractions.Wrappers, Version=22.1.1.0, Culture=neutral, PublicKeyToken=96bf224d23c43e59, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\TestableIO.System.IO.Abstractions.Wrappers.22.1.1\lib\net472\TestableIO.System.IO.Abstractions.Wrappers.dll</HintPath>
+    </Reference>
+    <Reference Include="Testably.Abstractions.FileSystem.Interface, Version=10.2.0.0, Culture=neutral, PublicKeyToken=f24346c8579fcb48, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Testably.Abstractions.FileSystem.Interface.10.2.0\lib\netstandard2.0\Testably.Abstractions.FileSystem.Interface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="CMSUtil" />
+    <Import Include="CMSUtil.Commands" />
+    <Import Include="Microsoft" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.Win32" />
+    <Import Include="ShrNet32" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.SqlClient" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Drawing.Printing" />
+    <Import Include="System.Globalization" />
+    <Import Include="System.IO" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Net" />
+    <Import Include="System.Net.Mail" />
+    <Import Include="System.Runtime" />
+    <Import Include="System.Runtime.InteropServices" />
+    <Import Include="System.Runtime.InteropServices.ComVisibleAttribute" />
+    <Import Include="System.Runtime.InteropServices.RegistrationServices" />
+    <Import Include="System.Security" />
+    <Import Include="System.Security.Cryptography" />
+    <Import Include="System.Text" />
+    <Import Include="System.Threading" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\AssemblyCopyrightInfo.vb">
+      <Link>AssemblyCopyrightInfo.vb</Link>
+    </Compile>
+    <Compile Include="..\..\AssemblyVersionInfo.vb">
+      <Link>AssemblyVersionInfo.vb</Link>
+    </Compile>
+    <Compile Include="APICallSupport.vb" />
+    <Compile Include="CardPointeCardSecureAPI.vb" />
+    <Compile Include="CardPointeGatewayAPI.vb" />
+    <Compile Include="CardPointeIntegratedTerminalAPI.vb" />
+    <Compile Include="CheckPassword.vb" />
+    <Compile Include="clsCSVManager.vb" />
+    <Compile Include="clsReportDataManager.vb" />
+    <Compile Include="clsReportManager.vb" />
+    <Compile Include="clsReportParamManager.vb" />
+    <Compile Include="CLS_Error.vb" />
+    <Compile Include="CLS_File.vb" />
+    <Compile Include="CLS_Localization.vb" />
+    <Compile Include="CLS_Server.vb" />
+    <Compile Include="CLS_XML.vb" />
+    <Compile Include="CMNeonCRMApi.vb" />
+    <Compile Include="CMSHelp.vb" />
+    <Compile Include="CMSMWGenius.vb" />
+    <Compile Include="CMSTransportEXE.vb" />
+    <Compile Include="CMSMWTransport4.vb" />
+    <Compile Include="CMSMWGiftCard.vb" />
+    <Compile Include="CM3DCartAPI.vb" />
+    <None Include="packages.config" />
+    <None Include="PostBuildProcess.targets" />
+    <Compile Include="Cryption.vb" />
+    <Compile Include="CTL_3DLine.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DenaliBISetupConnector.vb" />
+    <Compile Include="DotNetMethods.vb" />
+    <Compile Include="EMail.vb" />
+    <Compile Include="enmOutputType.vb" />
+    <Compile Include="enuModule.vb" />
+    <Compile Include="ExpandoExtensions.vb" />
+    <Compile Include="frmCommandSend.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCRViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalSuppressions.vb" />
+    <Compile Include="HostedTokenizerForm.Designer.vb">
+      <DependentUpon>HostedTokenizerForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HostedTokenizerForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MWTransport4Form.Designer.vb">
+      <DependentUpon>MWTransport4Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MWTransport4Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service References\MWGenius.reporting.simulator\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MWGenius.reporting\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MWGenius.transport\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MWGiftCard\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MWTransport4.credit\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\MWTransport4\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\NeonCRMApi\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\SimulatorServiceReference\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\Api3dCart\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\MerchantWARE.ps11\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\MerchantWARE.transport\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="frmPrintBox.vb">
+      <SubType>Form</SubType>
+    </None>
+    <Compile Include="frmTextViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXMLDotNetViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_ImageViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_ReportProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_ServerConnectRetry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="g.vb" />
+    <Compile Include="Globals.vb" />
+    <Compile Include="HelpLauncher.vb" />
+    <Compile Include="ModHelp.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Printers.vb" />
+    <Compile Include="SerializablePage.vb" />
+    <Compile Include="EventLogUtilities.vb" />
+    <Compile Include="UTL_HelpManager.vb" />
+    <Compile Include="UTL_TransactedServer.vb" />
+    <None Include="My Project\DataSources\System.Xml.Linq.XElement.datasource" />
+    <None Include="Service References\MWGenius.reporting.simulator\NETDLL.MWGenius.reporting.simulator.TransactionResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWGenius.reporting.simulator\reporting.wsdl" />
+    <None Include="Service References\MWGenius.reporting\NETDLL.MWGenius.reporting.TransactionResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWGenius.reporting\Reporting.wsdl" />
+    <None Include="Service References\MWGenius.transport\NETDLL.MWGenius.transport.TransportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWGenius.transport\transportService.wsdl" />
+    <None Include="Service References\MWGiftCard\Giftcard.wsdl">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\MWGiftCard\NETDLL.MWGiftCard.GiftLoyaltyResponse4.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWGiftCard\NETDLL.MWGiftCard.GiftResponse4.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWGiftCard\NETDLL.MWGiftCard.GiftSummary4.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWTransport4.credit\Credit.wsdl" />
+    <None Include="Service References\MWTransport4.credit\NETDLL.MWTransport4.credit.BatchResponse4.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWTransport4.credit\NETDLL.MWTransport4.credit.CreditLevel2Response4.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWTransport4.credit\NETDLL.MWTransport4.credit.CreditResponse4.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWTransport4.credit\NETDLL.MWTransport4.credit.EmvAuthorizeResponse4.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWTransport4.credit\NETDLL.MWTransport4.credit.EmvCompleteResponse4.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWTransport4.credit\NETDLL.MWTransport4.credit.SignatureResponse4.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWTransport4.credit\NETDLL.MWTransport4.credit.VaultBoardingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWTransport4.credit\NETDLL.MWTransport4.credit.VaultPaymentInfoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWTransport4\NETDLL.MWTransport4.TransportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\MWTransport4\transportService.wsdl" />
+    <None Include="Service References\NeonCRMApi\AccountService.wsdl" />
+    <None Include="Service References\NeonCRMApi\AccountService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NeonCRMApi\AccountService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NeonCRMApi\AccountService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NeonCRMApi\AccountService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NeonCRMApi\AccountService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NeonCRMApi\AccountService5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NeonCRMApi\AccountService6.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NeonCRMApi\AccountService7.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NeonCRMApi\AccountService8.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.AddActivityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.AddAddressResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.AddIndividualToHouseHoldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.AddItemToShoppingCartResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.AddMembershipToAccountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.AddOrUpdateCustomerToShoppingCartResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.AddOrUpdateShippingAddressToShoppingCartResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.AddOrUpdateShippingMethodToShoppingCartResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.AddProductToCatalogResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.AddToFavoriteAccountsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.AuthenticateUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CalculateEventRegistrationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CheckoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateCatalogResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateCategoryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateCustomObjectFieldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateCustomObjectFormLayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateCustomObjectListLayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateCustomObjectRecordResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateCustomObjectResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateCustomObjectValidatorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateDonationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateEventRegistrationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateHouseHoldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateIndividualAccountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateOrganizationAccountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreatePledgePaymentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreatePledgeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateProductOptionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateProductResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateRecurringDonationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateShoppingCartResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.CreateWebhookResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.DeleteCustomObjectFieldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.DeleteCustomObjectFormLayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.DeleteCustomObjectListLayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.DeleteCustomObjectRecordResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.DeleteCustomObjectResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.DeleteCustomObjectValidatorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.DeleteHouseHoldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.DeleteWebhookResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.EditIndividualAccountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.EditOrganizationAccountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.LinkIndividualToOrganizationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListAccountsByDefaultResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListAccountsByKeywordSearchResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListAccountsBySearchCriteriaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListAccountsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListActivitiesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListActivityStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListAddressTypesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCampaignsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCatalogsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCategoriesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCountriesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCreditCardTypesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCustomFieldsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCustomObjectChildRelationsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCustomObjectFieldsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCustomObjectLayoutsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCustomObjectRecordsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCustomObjectsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListCustomObjectValidatorsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListDonationsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListEventsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListEventTicketsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListFavoriteAccountsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListFundsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListGendersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListHouseHoldsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListIndividualTypesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListLookupObjectsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListMasterDetailObjectsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListMembershipHistoryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListMembershipsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListMembershipTermsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListOrdersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListOrganizationContactsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListOrganizationTypesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListPrefixesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListProductImagesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListProductOptionsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListProductsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListPurposesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListRecurringDonorsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListRelationTypesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListShippingMethodsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListSolicitationMethodsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListSourcesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListStatesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListSystemUsersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListTendersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ListWebhooksResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.LoginResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.LogoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveActivityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveAddressResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveCatalogResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveCategoryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveFromFavoriteAccountsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveIndividualFromHouseHoldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveIndividualFromOrganizationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveItemFromShoppingCartResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveProductFromCatalogResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveProductImageResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveProductOptionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RemoveProductResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveActivityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveCampaignSummaryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveCurrentSystemUserResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveCustomObjectFieldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveCustomObjectFormLayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveCustomObjectListLayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveCustomObjectRecordResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveDonationStatsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveEventAttendeesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveEventRegistrationStatsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveIndividualAccountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveMembershipStatsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveOrderDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveOrganizationAccountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrievePaymentProcessSettingResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveProductResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveReceiptResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveShoppingCartSummaryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveStatsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveStorePurchaseStatsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveTransactionStatsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.RetrieveWebhookResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.SyncAccountsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.SyncActivitiesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.ThisIsUselessResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateActivityResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateAddressResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateCatalogResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateCategoryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateCustomObjectEmailNotificationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateCustomObjectFieldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateCustomObjectFormLayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateCustomObjectListLayoutResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateCustomObjectRecordResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateCustomObjectResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateCustomObjectValidatorResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateHouseHoldPrimaryResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateHouseHoldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateIndividualAccountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateOrganizationAccountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdatePaymentResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateProductOptionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateProductResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UpdateWebhookResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\NeonCRMApi\NETDLL.NeonCRMApi.UploadProductImageResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SimulatorServiceReference\NETDLL.SimulatorServiceReference.TransportResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\SimulatorServiceReference\transportService.wsdl" />
+    <None Include="Web References\Api3dCart\cart_advanced.wsdl" />
+    <None Include="Web References\Api3dCart\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\MerchantWARE.ps11\GiftcardMagensa10.wsdl" />
+    <None Include="Web References\MerchantWARE.ps11\GiftLoyaltyResponse4.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MerchantWARE.ps11\GiftResponse4.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MerchantWARE.ps11\GiftSummary4.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MerchantWARE.ps11\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\MerchantWARE.transport\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\MerchantWARE.transport\TransportResponse1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\MerchantWARE.transport\transportService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CTL_3DLine.resx">
+      <DependentUpon>CTL_3DLine.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCommandSend.resx">
+      <DependentUpon>frmCommandSend.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCRViewer.resx">
+      <DependentUpon>frmCRViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintBox.resx">
+      <DependentUpon>frmPrintBox.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTextViewer.resx">
+      <DependentUpon>frmTextViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXMLDotNetViewer.resx">
+      <DependentUpon>frmXMLDotNetViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_ImageViewer.resx">
+      <DependentUpon>FRM_ImageViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_ReportProgress.resx">
+      <DependentUpon>FRM_ReportProgress.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_ServerConnectRetry.resx">
+      <DependentUpon>FRM_ServerConnectRetry.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HostedTokenizerForm.resx">
+      <DependentUpon>HostedTokenizerForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MWTransport4Form.resx">
+      <DependentUpon>MWTransport4Form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="NETDLL.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PrinterDocuments.ICO" />
+    <EmbeddedResource Include="Resources\Fiserv-logo.svg" />
+    <EmbeddedResource Include="Resources\speedlines.png" />
+    <EmbeddedResource Include="Resources\online payment.ico" />
+    <EmbeddedResource Include="Resources\CardPointe-Test.html" />
+    <EmbeddedResource Include="Resources\CardPointe.css" />
+    <EmbeddedResource Include="Resources\CloverConnectLogo.svg" />
+    <EmbeddedResource Include="Resources\CougarMountainLogo.jpg" />
+    <EmbeddedResource Include="Resources\CardPointe-WebBrowser.html" />
+    <EmbeddedResource Include="Resources\CardPointe-WebView.html" />
+    <None Include="Service References\NeonCRMApi\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\NeonCRMApi\configuration.svcinfo" />
+    <None Include="Service References\NeonCRMApi\configuration91.svcinfo" />
+    <None Include="Service References\MWGenius.reporting.simulator\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\MWGenius.reporting.simulator\configuration.svcinfo" />
+    <None Include="Service References\MWGenius.reporting.simulator\configuration91.svcinfo" />
+    <None Include="Service References\MWGenius.reporting.simulator\reporting.disco" />
+    <None Include="Service References\MWGenius.reporting\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\MWGenius.reporting\configuration.svcinfo" />
+    <None Include="Service References\MWGenius.reporting\configuration91.svcinfo" />
+    <None Include="Service References\MWGenius.reporting\Reporting.disco" />
+    <None Include="Service References\SimulatorServiceReference\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\SimulatorServiceReference\configuration.svcinfo" />
+    <None Include="Service References\SimulatorServiceReference\configuration91.svcinfo" />
+    <None Include="Service References\SimulatorServiceReference\transportService.disco" />
+    <None Include="Web References\Api3dCart\cart_advanced.disco" />
+    <None Include="Service References\MWGiftCard\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\MWGiftCard\configuration.svcinfo" />
+    <None Include="Service References\MWGiftCard\configuration91.svcinfo" />
+    <None Include="Service References\MWGiftCard\Giftcard.disco" />
+    <None Include="Service References\MWTransport4.credit\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\MWTransport4.credit\configuration.svcinfo" />
+    <None Include="Service References\MWTransport4.credit\configuration91.svcinfo" />
+    <None Include="Service References\MWTransport4.credit\Credit.disco" />
+    <None Include="Service References\MWTransport4\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\MWTransport4\configuration.svcinfo" />
+    <None Include="Service References\MWTransport4\configuration91.svcinfo" />
+    <None Include="Service References\MWTransport4\transportService.disco" />
+    <None Include="Service References\MWGenius.transport\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Service References\MWGenius.transport\configuration.svcinfo" />
+    <None Include="Service References\MWGenius.transport\configuration91.svcinfo" />
+    <None Include="Service References\MWGenius.transport\transportService.disco" />
+    <None Include="Web References\MerchantWARE.ps11\GiftcardMagensa10.disco" />
+    <None Include="Web References\MerchantWARE.transport\transportService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <WCFMetadata Include="Service References\" />
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="https://api.3dcart.com/cart_advanced.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Api3dCart\</RelPath>
+      <UpdateFromURL>https://api.3dcart.com/cart_advanced.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>NETDLL_Api3dCart_cartAPIAdvanced</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://ps1.merchantware.net/Merchantware/ws/ExtensionServices/v4/GiftcardMagensa10.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\MerchantWARE.ps11\</RelPath>
+      <UpdateFromURL>https://ps1.merchantware.net/Merchantware/ws/ExtensionServices/v4/GiftcardMagensa10.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>NETDLL_net_merchantware_ps11_GiftcardMagensa10</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="https://staging.merchantware.net/transportweb4/transportService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\MerchantWARE.transport\</RelPath>
+      <UpdateFromURL>https://staging.merchantware.net/transportweb4/transportService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>NETDLL_net_merchantware_transport_TransportService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\MWGenius.reporting.simulator\" />
+    <WCFMetadataStorage Include="Service References\MWGenius.reporting\" />
+    <WCFMetadataStorage Include="Service References\MWGenius.transport\" />
+    <WCFMetadataStorage Include="Service References\MWGiftCard\" />
+    <WCFMetadataStorage Include="Service References\MWTransport4.credit\" />
+    <WCFMetadataStorage Include="Service References\MWTransport4\" />
+    <WCFMetadataStorage Include="Service References\NeonCRMApi\" />
+    <WCFMetadataStorage Include="Service References\SimulatorServiceReference\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="COMAdmin">
+      <Guid>{F618C513-DFB8-11D1-A2CF-00805FC79235}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ACTIVATION\CMSUtil\CMSUtil.vbproj">
+      <Project>{397fb2e1-192e-443e-84f5-0e2d95e40448}</Project>
+      <Name>CMSUtil</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ACTIVATION\ShrNet\ShrNet.vbproj">
+      <Project>{78b85965-cf37-4dc2-83f6-95a9a9e3f3f8}</Project>
+      <Name>ShrNet</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\DenaliUtilities\DenaliBIProcessing\DenaliBIProcessing.vbproj">
+      <Project>{a6d4cc67-516b-4cce-87ef-2d5590dd7b6a}</Project>
+      <Name>DenaliBIProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DenaliCommandParser\DenaliCommandParser.vbproj">
+      <Project>{91f391e5-8727-426b-a8e7-6dcf92b62e90}</Project>
+      <Name>DenaliCommandParser</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>REM Edit the post build event in the PostBuildProcess.targets file</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="PostBuildProcess.targets" />
+  <Import Project="..\..\packages\Microsoft.Web.WebView2.1.0.3912.50\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\..\packages\Microsoft.Web.WebView2.1.0.3912.50\build\Microsoft.Web.WebView2.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\packages\Microsoft.Web.WebView2.1.0.3912.50\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Microsoft.Web.WebView2.1.0.3912.50\build\Microsoft.Web.WebView2.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
