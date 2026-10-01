@@ -1,17 +1,31 @@
-Build started...
-1>------ Build started: Project: DenaliCommandParser, Configuration: Debug x64 ------
-1>  DenaliCommandParser -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.dll
-2>------ Build started: Project: NETDLL, Configuration: Debug x64 ------
-2>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
-2>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.Controllers, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
-2>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
-2>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(29,9): error BC40056: Namespace or type specified in the Imports 'CrystalDecisions.ReportAppServer.ReportDefModel' doesn't contain any public member or cannot be found. Make sure the namespace or the type is defined and contains at least one public member. Make sure the imported element name doesn't use any aliases.
-2>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(390,23): error BC30002: Type 'ReportAppServer.Controllers.PrintReportOptions' is not defined.
-2>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(393,9): error BC30652: Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.
-2>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(483,25): error BC30002: Type 'ReportAppServer.Controllers.PrintReportOptions' is not defined.
-2>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(488,60): error BC30002: Type 'CrPrinterDuplexEnum' is not defined.
-2>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(489,88): error BC30002: Type 'CrPaperSourceEnum' is not defined.
-2>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(492,84): error BC30002: Type 'CrPaperSizeEnum' is not defined.
-2>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(493,88): error BC30002: Type 'CrPaperSourceEnum' is not defined.
-2>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(499,9): error BC30652: Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.
-========== Build: 1 succeeded, 1 failed, 7 up-to-date, 0 skipped ==========
+Rebuild started...
+1>------ Rebuild All started: Project: DenaliDictionaryPt3, Configuration: Debug x64 ------
+2>------ Rebuild All started: Project: CMSUtil, Configuration: Debug x64 ------
+3>------ Rebuild All started: Project: DenaliBIProcessing, Configuration: Debug x64 ------
+2>  CMSUtil -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSUtil.dll
+1>  DenaliDictionaryPt3 -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDictionary3.dll
+4>------ Rebuild All started: Project: DenaliServerGlobals, Configuration: Debug x64 ------
+5>------ Rebuild All started: Project: ShrNet, Configuration: Debug x64 ------
+3>  DenaliBIProcessing -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliBIProcessing.dll
+5>  ShrNet -> C:\TFS\Denali\Code\Dev\Build\Debugx64\ShrNet.dll
+4>  DenaliServerGlobals -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSServerGlobals.dll
+6>------ Rebuild All started: Project: DenaliDictionaryPt2, Configuration: Debug x64 ------
+6>  DenaliDictionaryPt2 -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDictionary2.dll
+7>------ Rebuild All started: Project: DenaliDictionaryPt1, Configuration: Debug x64 ------
+7>  DenaliDictionaryPt1 -> C:\TFS\Denali\Code\Dev\Build\Debugx64\CMSDictionary.dll
+8>------ Rebuild All started: Project: DenaliCommandParser, Configuration: Debug x64 ------
+8>  DenaliCommandParser -> C:\TFS\Denali\Code\Dev\Build\Debugx64\DenaliCommandParser.dll
+9>------ Rebuild All started: Project: NETDLL, Configuration: Debug x64 ------
+9>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+9>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.Controllers, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+9>C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3245: Could not resolve this reference. Could not locate the assembly "CrystalDecisions.ReportAppServer.ReportDefModel, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors.
+9>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(29,9): error BC40056: Namespace or type specified in the Imports 'CrystalDecisions.ReportAppServer.ReportDefModel' doesn't contain any public member or cannot be found. Make sure the namespace or the type is defined and contains at least one public member. Make sure the imported element name doesn't use any aliases.
+9>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(390,23): error BC30002: Type 'ReportAppServer.Controllers.PrintReportOptions' is not defined.
+9>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(393,9): error BC30652: Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.
+9>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(483,25): error BC30002: Type 'ReportAppServer.Controllers.PrintReportOptions' is not defined.
+9>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(488,60): error BC30002: Type 'CrPrinterDuplexEnum' is not defined.
+9>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(489,88): error BC30002: Type 'CrPaperSourceEnum' is not defined.
+9>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(492,84): error BC30002: Type 'CrPaperSizeEnum' is not defined.
+9>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(493,88): error BC30002: Type 'CrPaperSourceEnum' is not defined.
+9>C:\TFS\Denali\Code\Dev\DenaliServerSideComponents\NETDLL\clsReportManager.vb(499,9): error BC30652: Reference required to assembly 'CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304' containing the type 'ISCDReportClientDocument'. Add one to your project.
+========== Rebuild All: 8 succeeded, 1 failed, 0 skipped ==========
