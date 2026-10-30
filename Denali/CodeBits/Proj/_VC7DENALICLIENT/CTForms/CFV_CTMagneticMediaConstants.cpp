@@ -87,6 +87,9 @@ void CCFV_CTMagneticMediaConstants::DoDataExchange(CDataExchange* pDX)
 	// Test for adding new controls
 	DDX_Control(pDX, IDC_EDIT_FIRST_NAME, m_txtFirstName);
 	DDX_Text(pDX, IDC_EDIT_FIRST_NAME, m_szFirstName);
+	DDX_Control(pDX, IDC_EDIT_MI, m_txtMiddleInitial);
+	DDX_Control(pDX, IDC_EDIT_LAST_NAME, m_txtLastName);
+	DDX_Control(pDX, IDC_EDIT_SUFFIX, m_txtSuffix);
 	// Remove upto this after test
 	DDX_Control(pDX, IDC_EDIT_STREET_ADDR, m_txtTransmitterAddress);
 	DDX_Text(pDX, IDC_EDIT_STREET_ADDR, m_szTransmitterAddress);
@@ -175,6 +178,9 @@ BEGIN_MESSAGE_MAP(CCFV_CTMagneticMediaConstants, CCMSFormView)
 	ON_EN_CHANGE(IDC_EDIT_CONTACTNAME, OnEnChangeEditContactname)
 	ON_EN_CHANGE(IDC_EDIT_FAX, OnEnChangeEditFax)
 	ON_EN_CHANGE(IDC_EDIT_EMAIL1, OnEnChangeEditEmail1)
+	// PBI 66618
+	ON_BN_CLICKED(IDC_RDO_BUSINESS, OnBnClickedRdoBusiness)
+	ON_BN_CLICKED(IDC_RDO_INDIVIDUAL, OnBnClickedRdoIndividual)
 END_MESSAGE_MAP()
 
 // CCFV_CTMagneticMediaConstants message handlers
@@ -197,6 +203,12 @@ void CCFV_CTMagneticMediaConstants::OnInitialUpdate()
 	SetTextLimits();											//set text limits AES
 	FillControlMap();											//fill control in xml
 	LoadMagData();												//load data form server
+
+	// PBI 66618
+	// TEMPORARY: Force Business mode for UI testing.
+	CheckRadioButton(IDC_RDO_BUSINESS, IDC_RDO_INDIVIDUAL, IDC_RDO_BUSINESS);
+	UpdateIdentityControls();
+
 	m_txtEmployerID.SetFocus();
 	m_txtEmployerID.SetSel(0, -1);
 	CGBLForm::SendMessageToMainFrame(WM_TB_SAVE_ENABLE, true);					//enable the toolbar buttons
@@ -327,7 +339,11 @@ void CCFV_CTMagneticMediaConstants::LoadResources()
 	SetResourceText(IDC_CTF_TOPHEADER, IDS_MAGNETIC_MEDIA_HEADER);
 	SetResourceText(IDC_STATIC_EMPLOYER_ID, IDS_EMPLOYER_ID);
 	SetResourceText(IDC_CFT_PIN, IDS_PIN);
+	// PBI 66618
 	SetResourceText(IDC_STATIC_TRANS_NAME, IDS_TRANSMITTER_NAME);
+	SetResourceText(IDC_RDO_BUSINESS, IDS_BUSINESS);
+	SetResourceText(IDC_RDO_INDIVIDUAL, IDS_AP_INDIVIDUAL);
+
 	SetResourceText(IDC_STATIC_STREET_ADDR, IDS_STREET_ADDR);
 	SetResourceText(IDC_STATIC_CITY, IDS_CITY);
 	SetResourceText(IDC_STATIC_STATE, IDS_STATE);
@@ -358,12 +374,12 @@ void CCFV_CTMagneticMediaConstants::LoadResources()
 	SetResourceText(IDC_CTF_LBL_EXTENSION, IDS_EXTENSION);
 
 	// Test for adding new controls
-	//SetResourceText(IDC_STATIC_FIRST_NAME_LABEL, IDS_EMPLOYER_ID);
-	//SetResourceText(IDC_STATIC_FIRST_NAME_LABEL, IDS_LAST_NAME);
 	SetResourceText(IDC_STATIC_FIRST_NAME_LABEL, 17849);
-	//CGBLResources::GetResourceString(IDS_FIRST_NAME)
-
+	SetResourceText(IDC_STATIC_LAST_NAME_LABEL, IDS_LAST_NAME);
+	//SetResourceText(IDC_IDC_STATIC_MI, IDS_IDS_LAST_NAME);
+	SetResourceText(IDC_STATIC_SUFFIX, IDS_SUFFIX);
 	// Remove upto this after test
+
 	//JKC 8/28/03 DefectID: 1-7595 Set font to nine point italic!
 	GetDlgItem(IDC_GRP_CONTACTINFO)->SetFont(&si->Drawing.Fonts.NineItalic);
 	GetDlgItem(IDC_CTF_PREFERRED_METHOD)->SetFont(&si->Drawing.Fonts.NineItalic);
@@ -794,4 +810,40 @@ void CCFV_CTMagneticMediaConstants::OnEnChangeEditEmail1()
 	const CString szCurrValue(m_txtContantEMail.GetText());
 	SetDirty(m_szContantEMail != szCurrValue);
 	m_szContantEMail = szCurrValue;
+}
+
+//PBI 66618
+void CCFV_CTMagneticMediaConstants::OnBnClickedRdoBusiness()
+{
+	UpdateIdentityControls();
+}
+
+void CCFV_CTMagneticMediaConstants::OnBnClickedRdoIndividual()
+{
+	UpdateIdentityControls();
+}
+
+// PBI 66618
+// This method toggles visible/invisible between controls
+// while clicking Business and Individul Radio bouttons
+void CCFV_CTMagneticMediaConstants::UpdateIdentityControls()
+{
+	const bool bBusiness = (IsDlgButtonChecked(IDC_RDO_BUSINESS) == BST_CHECKED);
+
+	// Business identity
+	m_txtTransmitterName.ShowWindow(bBusiness ? SW_SHOW : SW_HIDE);
+	GetDlgItem(IDC_STATIC_TRANS_NAME)->ShowWindow(bBusiness ? SW_SHOW : SW_HIDE);
+
+	// Individual identity
+	m_txtFirstName.ShowWindow(bBusiness ? SW_HIDE : SW_SHOW);
+	GetDlgItem(IDC_STATIC_FIRST_NAME_LABEL)->ShowWindow(bBusiness ? SW_HIDE : SW_SHOW);
+
+	m_txtMiddleInitial.ShowWindow(bBusiness ? SW_HIDE : SW_SHOW);
+	GetDlgItem(IDC_STATIC_MI)->ShowWindow(bBusiness ? SW_HIDE : SW_SHOW);
+
+	m_txtLastName.ShowWindow(bBusiness ? SW_HIDE : SW_SHOW);
+	GetDlgItem(IDC_STATIC_LAST_NAME_LABEL)->ShowWindow(bBusiness ? SW_HIDE : SW_SHOW);
+
+	m_txtSuffix.ShowWindow(bBusiness ? SW_HIDE : SW_SHOW);
+	GetDlgItem(IDC_STATIC_SUFFIX)->ShowWindow(bBusiness ? SW_HIDE : SW_SHOW);
 }
