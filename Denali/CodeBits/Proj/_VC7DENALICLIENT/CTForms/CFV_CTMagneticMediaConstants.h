@@ -77,6 +77,9 @@ protected:
 	afx_msg void OnEnChangeEditContactname();
 	afx_msg void OnEnChangeEditFax();
 	afx_msg void OnEnChangeEditEmail1();
+	// PBI 66618
+	afx_msg void OnBnClickedRdoBusiness();
+	afx_msg void OnBnClickedRdoIndividual();
 
 	DECLARE_MESSAGE_MAP()
 
@@ -98,6 +101,9 @@ public:
 	// Test for adding new controls
 	CCMSEdit m_txtFirstName;
 	CString  m_szFirstName;
+	CCMSEdit m_txtMiddleInitial;
+	CCMSEdit m_txtLastName;
+	CCMSEdit m_txtSuffix;
 	// Remove upto this after test
 	CCMSEdit m_txtTransmitterAddress;
 	CString m_szTransmitterAddress;
@@ -161,4 +167,8 @@ private:
 	static bool m_bFirstNotification;
 	CDialogActionButtons	m_dlgButtons;
 	CString FilterForNumerics(const CString& szPhoneNo) const;
+	// PBI 66618
+	// This method toggles visible/invisible between controls
+	// while clicking Business and Individul Radio bouttons
+	void UpdateIdentityControls();
 };
